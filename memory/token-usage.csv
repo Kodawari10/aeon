@@ -1,2 +1,3 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-25,heartbeat,codex-default,270001,2419,234240,0
+2026-08-25,monitor-polymarket,codex-default,325381,4365,275456,0

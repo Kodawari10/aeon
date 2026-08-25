@@ -1,0 +1,14 @@
+{
+  "skill": "monitor-polymarket",
+  "last_analyzed": "2026-08-25T12:09:24Z",
+  "quality_score": 3,
+  "assessment": "Acceptable no-alert monitoring result with clear configuration guidance and concrete discovery counts, though the uncited trending examples provide limited verifiability and actionable depth.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-08-25",
+      "score": 3
+    }
+  ]
+}
