@@ -1,0 +1,105 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "monitor-polymarket",
+        "description": "Prediction market monitor: not configured"
+      },
+      "children": [
+        "alert-not-configured",
+        "sep-1",
+        "heading-setup",
+        "text-setup-polymarket",
+        "text-setup-kalshi",
+        "sep-2",
+        "heading-kalshi",
+        "table-kalshi-sample",
+        "sep-3",
+        "text-low-signal"
+      ]
+    },
+    "alert-not-configured": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "monitor-polymarket ran with empty watchlists, so nothing is being tracked."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-setup": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup",
+        "level": "h3"
+      }
+    },
+    "text-setup-polymarket": {
+      "type": "Text",
+      "props": {
+        "text": "Add one event slug per line to skills/monitor-polymarket/watchlist-polymarket.md (from polymarket.com/event/{slug})"
+      }
+    },
+    "text-setup-kalshi": {
+      "type": "Text",
+      "props": {
+        "text": "Add one event ticker per line to skills/monitor-polymarket/watchlist-kalshi.md (e.g. KXFED-26JUN)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-kalshi": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi trending sample (first 50 open events, not tracked, 24h vol in contracts)",
+        "level": "h3"
+      }
+    },
+    "table-kalshi-sample": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Event",
+          "Description",
+          "24h Volume (contracts)"
+        ],
+        "rows": [
+          [
+            "KXRIEMANNRES-40",
+            "Riemann Hypothesis resolution date",
+            "~43.8k"
+          ],
+          [
+            "KXMILLENNIUMALL-40",
+            "All Millennium Prize Problems solved",
+            "~6.4k"
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-low-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Low signal. The API page isn't volume-sorted, and these are long-dated science markets.",
+        "variant": "muted"
+      }
+    }
+  }
+}
