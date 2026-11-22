@@ -1,0 +1,205 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-11-22"
+      },
+      "children": [
+        "heading-status",
+        "stat-health",
+        "separator-1",
+        "alert-no-data",
+        "heading-no-data-skills",
+        "stack-no-data-skills",
+        "text-dispatch",
+        "text-cron-stale",
+        "text-aeon-doctor",
+        "separator-2",
+        "heading-healthy",
+        "stack-healthy-skills",
+        "separator-3",
+        "grid-issues"
+      ]
+    },
+    "heading-status": {
+      "type": "Heading",
+      "props": {
+        "text": "Overall Status",
+        "level": "h2"
+      }
+    },
+    "stat-health": {
+      "type": "Stat",
+      "props": {
+        "label": "Health",
+        "value": "OK",
+        "delta": "0 critical/degraded/flapping"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-no-data": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "⚪ NO DATA in last 7d",
+        "message": "6 skills have no recent runs despite active cron"
+      }
+    },
+    "heading-no-data-skills": {
+      "type": "Heading",
+      "props": {
+        "text": "Skills with No Recent Runs",
+        "level": "h3"
+      }
+    },
+    "stack-no-data-skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-heartbeat",
+        "badge-digest",
+        "badge-reply-maker",
+        "badge-pm-manipulation",
+        "badge-mention-radar",
+        "badge-memory-flush"
+      ]
+    },
+    "badge-heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "outline"
+      }
+    },
+    "badge-digest": {
+      "type": "Badge",
+      "props": {
+        "text": "digest",
+        "variant": "outline"
+      }
+    },
+    "badge-reply-maker": {
+      "type": "Badge",
+      "props": {
+        "text": "reply-maker",
+        "variant": "outline"
+      }
+    },
+    "badge-pm-manipulation": {
+      "type": "Badge",
+      "props": {
+        "text": "pm-manipulation",
+        "variant": "outline"
+      }
+    },
+    "badge-mention-radar": {
+      "type": "Badge",
+      "props": {
+        "text": "mention-radar",
+        "variant": "outline"
+      }
+    },
+    "badge-memory-flush": {
+      "type": "Badge",
+      "props": {
+        "text": "memory-flush",
+        "variant": "outline"
+      }
+    },
+    "text-dispatch": {
+      "type": "Text",
+      "props": {
+        "text": "Action: DISPATCH-SKILL",
+        "variant": "lead"
+      }
+    },
+    "text-cron-stale": {
+      "type": "Text",
+      "props": {
+        "text": "cron-state.json is stale (last entry 2026-08-25)",
+        "variant": "muted"
+      }
+    },
+    "text-aeon-doctor": {
+      "type": "Text",
+      "props": {
+        "text": "Suggestion: Run aeon-doctor to check scheduler/config",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 Healthy Skills",
+        "level": "h3"
+      }
+    },
+    "stack-healthy-skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-monitor-polymarket",
+        "badge-skill-health-healthy"
+      ]
+    },
+    "badge-monitor-polymarket": {
+      "type": "Badge",
+      "props": {
+        "text": "monitor-polymarket (in progress)",
+        "variant": "secondary"
+      }
+    },
+    "badge-skill-health-healthy": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health (in progress)",
+        "variant": "secondary"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "grid-issues": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved-this-run"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "0"
+      }
+    },
+    "stat-resolved-this-run": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved This Run",
+        "value": "0"
+      }
+    }
+  }
+}
