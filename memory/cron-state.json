@@ -39,5 +39,9 @@
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
+  },
+  "memory-flush": {
+    "last_dispatch": "2026-11-23T02:59:17Z",
+    "last_status": "dispatched"
   }
 }
