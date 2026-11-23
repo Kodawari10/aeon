@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "reply-maker"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "message"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "revise"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Want to refine these replies? Reply with a change and I'll revise them.",
+        "variant": "body"
+      }
+    }
+  }
+}
