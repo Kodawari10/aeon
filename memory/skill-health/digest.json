@@ -1,0 +1,16 @@
+{
+  "skill": "digest",
+  "last_analyzed": "2026-11-23T12:02:08Z",
+  "quality_score": 3,
+  "assessment": "Substantive, well-structured digest with actionable guidance, but specific claims (tweet IDs, figures, version numbers) cannot be independently verified and strategy prioritizes correctness first.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-11-23",
+      "score": 3
+    }
+  ]
+}

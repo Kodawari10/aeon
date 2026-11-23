@@ -19,6 +19,7 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-11-23 | Starknet | Upbit STRK listing, independent-L1 whitepaper, L2 TVL narrative |
 
 ## Skills Built
 | Skill | Date | Notes |
