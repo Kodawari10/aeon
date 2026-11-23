@@ -1,0 +1,121 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-11-23"
+      },
+      "children": [
+        "stat-health",
+        "grid-metrics",
+        "sep-1",
+        "stack-status",
+        "sep-2",
+        "text-summary"
+      ]
+    },
+    "stat-health": {
+      "type": "Stat",
+      "props": {
+        "label": "Status",
+        "value": "OK"
+      },
+      "children": []
+    },
+    "grid-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat-healthy",
+        "stat-failures",
+        "stat-runs",
+        "stat-progress"
+      ]
+    },
+    "stat-healthy": {
+      "type": "Stat",
+      "props": {
+        "label": "Healthy Skills",
+        "value": "8"
+      },
+      "children": []
+    },
+    "stat-failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Failures (7d)",
+        "value": "0"
+      },
+      "children": []
+    },
+    "stat-runs": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Runs",
+        "value": "11"
+      },
+      "children": []
+    },
+    "stat-progress": {
+      "type": "Stat",
+      "props": {
+        "label": "In Progress",
+        "value": "3"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-mention-radar",
+        "alert-reply-maker"
+      ]
+    },
+    "alert-mention-radar": {
+      "type": "Alert",
+      "props": {
+        "title": "⚪ NO DATA (1)",
+        "message": "mention-radar — no run recorded yet since schedule start",
+        "type": "info"
+      },
+      "children": []
+    },
+    "alert-reply-maker": {
+      "type": "Alert",
+      "props": {
+        "title": "👀 Watch",
+        "message": "reply-maker — quality score 2 (generic_content); only 2 runs so not yet DEGRADED",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Open issues: 0 · Resolved this run: 0",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

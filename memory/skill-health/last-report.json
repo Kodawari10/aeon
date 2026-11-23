@@ -1,13 +1,14 @@
 {
   "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "last_notified_at": "2026-11-22T22:31:00Z",
-  "last_run_at": "2026-11-22T22:31:00Z",
+  "last_notified_at": "2026-11-23T23:24:00Z",
+  "last_run_at": "2026-11-23T23:24:00Z",
   "classification": {
     "critical": [],
     "degraded": [],
     "flapping": [],
     "warning": [],
-    "healthy_count": 2,
-    "no_data": ["heartbeat", "digest", "reply-maker", "pm-manipulation", "mention-radar", "memory-flush"]
+    "healthy_count": 8,
+    "no_data": ["mention-radar"],
+    "watch": ["reply-maker (quality avg 2, 2 runs, generic_content)"]
   }
 }
