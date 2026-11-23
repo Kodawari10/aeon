@@ -1,8 +1,8 @@
 {
   "skill": "monitor-polymarket",
-  "last_analyzed": "2026-11-22T22:31:01Z",
+  "last_analyzed": "2026-11-23T11:58:57Z",
   "quality_score": 3,
-  "assessment": "Correctly handled unconfigured state with clear setup path and sample data; a legitimate completed task for an empty watchlist.",
+  "assessment": "Completed task correctly with empty watchlists and honest, well-caveated discovery output; legitimate no-op that surfaces operator action needed.",
   "flags": [],
   "avg_score": 3,
   "history": [
@@ -12,6 +12,10 @@
     },
     {
       "date": "2026-11-22",
+      "score": 3
+    },
+    {
+      "date": "2026-11-23",
       "score": 3
     }
   ]
