@@ -1,0 +1,491 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "PM Manipulation Watch",
+        "description": "2026-11-23 (past 3d)"
+      },
+      "children": [
+        "summary-section",
+        "divider1",
+        "suspicious-section",
+        "divider2",
+        "watch-section",
+        "divider3",
+        "clean-section",
+        "divider4",
+        "caveat-section",
+        "divider5",
+        "output-link"
+      ]
+    },
+    "summary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-stats"
+      ]
+    },
+    "summary-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-markets",
+        "stat-suspicious",
+        "stat-highconf"
+      ]
+    },
+    "stat-markets": {
+      "type": "Stat",
+      "props": {
+        "label": "Markets Scanned",
+        "value": "9"
+      },
+      "children": []
+    },
+    "stat-suspicious": {
+      "type": "Stat",
+      "props": {
+        "label": "Suspicious",
+        "value": "3"
+      },
+      "children": []
+    },
+    "stat-highconf": {
+      "type": "Stat",
+      "props": {
+        "label": "High Confidence",
+        "value": "0"
+      },
+      "children": []
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "suspicious-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "suspicious-heading",
+        "market1",
+        "market2",
+        "market3"
+      ]
+    },
+    "suspicious-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Suspicious (score 3/5, mechanical)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m1-title",
+        "m1-movement",
+        "m1-flags-label",
+        "m1-flags",
+        "m1-press",
+        "m1-asymmetry",
+        "m1-take"
+      ]
+    },
+    "m1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Will Gadi Eizenkot be the next PM of Israel? — 3/5",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "m1-movement": {
+      "type": "Text",
+      "props": {
+        "text": "3d: 62.4¢ → 61.3¢ | High: 67¢ → Low: 57¢",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "m1-flags-label": {
+      "type": "Text",
+      "props": {
+        "text": "Flags:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "m1-flags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "flag-m1-reversal",
+        "flag-m1-volume",
+        "flag-m1-whale"
+      ]
+    },
+    "flag-m1-reversal": {
+      "type": "Badge",
+      "props": {
+        "text": "reversal",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m1-volume": {
+      "type": "Badge",
+      "props": {
+        "text": "volume-spike (28×)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m1-whale": {
+      "type": "Badge",
+      "props": {
+        "text": "whale-concentrated (top-3: 48%)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "m1-press": {
+      "type": "Text",
+      "props": {
+        "text": "Local press: Hebrew (Ynet) covers rotation talk, Ra'am detention affair, Ch12 poll 55 v 51",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "m1-asymmetry": {
+      "type": "Text",
+      "props": {
+        "text": "Asymmetry: n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "m1-take": {
+      "type": "Text",
+      "props": {
+        "text": "Take: Consistent with a news-dense week, no coverage gap found",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m2-title",
+        "m2-movement",
+        "m2-flags-label",
+        "m2-flags",
+        "m2-press",
+        "m2-asymmetry"
+      ]
+    },
+    "m2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Israel × Iran ceasefire through Dec 31? — 3/5",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "m2-movement": {
+      "type": "Text",
+      "props": {
+        "text": "3d: 65.5¢ → 69.5¢ | Dip to 59.5¢ then rebound to 70.5¢ | Top-3: 48%, Volume: 33×",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "m2-flags-label": {
+      "type": "Text",
+      "props": {
+        "text": "Flags:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "m2-flags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "flag-m2-reversal",
+        "flag-m2-volume",
+        "flag-m2-whale"
+      ]
+    },
+    "flag-m2-reversal": {
+      "type": "Badge",
+      "props": {
+        "text": "reversal",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m2-volume": {
+      "type": "Badge",
+      "props": {
+        "text": "volume-spike",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m2-whale": {
+      "type": "Badge",
+      "props": {
+        "text": "whale-concentrated",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "m2-press": {
+      "type": "Text",
+      "props": {
+        "text": "Local press: Ynet reports violations/extensions across the window",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "m2-asymmetry": {
+      "type": "Text",
+      "props": {
+        "text": "Asymmetry: n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m3-title",
+        "m3-movement",
+        "m3-flags-label",
+        "m3-flags",
+        "m3-take"
+      ]
+    },
+    "m3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Israel × Iran ceasefire through Nov 30? — 3/5",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "m3-movement": {
+      "type": "Text",
+      "props": {
+        "text": "3d: 86.5¢ → 92.5¢ | 15pp rebound off 78.5¢ | 83% of move in one 6h block",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "m3-flags-label": {
+      "type": "Text",
+      "props": {
+        "text": "Flags:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "m3-flags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "flag-m3-move",
+        "flag-m3-reversal",
+        "flag-m3-volume",
+        "flag-m3-whale"
+      ]
+    },
+    "flag-m3-move": {
+      "type": "Badge",
+      "props": {
+        "text": "concentrated-move",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m3-reversal": {
+      "type": "Badge",
+      "props": {
+        "text": "reversal",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m3-volume": {
+      "type": "Badge",
+      "props": {
+        "text": "volume-spike (marginal)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "flag-m3-whale": {
+      "type": "Badge",
+      "props": {
+        "text": "top-3: 29%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "m3-take": {
+      "type": "Text",
+      "props": {
+        "text": "Take: Headline-driven; sibling to #2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item1",
+        "watch-item2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch (2)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Jensen Huang rejoins NVIDIA by Dec 31: 5.6¢ → 10.7¢ while English press says the board isn't considering a return (trade sample covers only 11h)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Netanyahu next PM (+7.9pp), US invades Iran (immaterial move), French 2027 event thread has a spam bot-burst but de Villepin price is flat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divider3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "clean-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "clean-heading",
+        "clean-item"
+      ]
+    },
+    "clean-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Clean",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "clean-item": {
+      "type": "Text",
+      "props": {
+        "text": "Taipei mayor (Shen/Chiang): drift explained by a 3-3 split in final pre-blackout polls; no asymmetry.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divider4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "caveat-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Caveat",
+        "message": "Polymarket trades v1 API is retired (410), used v2 with 500-trade cap, so whale share and volume ratios are sample-limited. 'Suspected' only, not proof.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "divider5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "output-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full Report: PM Manipulation 2026-11-23",
+        "href": "output/articles/pm-manipulation-2026-11-23.md",
+        "source": "Aeon Output"
+      },
+      "children": []
+    }
+  }
+}
