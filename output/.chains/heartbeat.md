@@ -1,11 +1,5 @@
-HEARTBEAT_OK · STATUS_PAGE=OK (warming up)
+⚠️ Heartbeat 2026-11-23
 
-- Regenerated [docs/status.md](/home/runner/work/aeon/aeon/docs/status.md).
-- No failed/stuck skills, stalled PRs, urgent issues, or open health issues.
-- Fleet is awaiting its first completed skill run.
-- Logged the run in [2026-08-25.md](/home/runner/work/aeon/aeon/memory/logs/2026-08-25.md).
-- No notification sent, as required for bootstrap state.
-
-## Summary
-
-Modified `docs/status.md` and created today’s heartbeat log. No follow-up action is currently required.
+🔴 DEGRADED: heartbeat itself — last recorded success 2026-08-25 (~90 days ago). cron-state.json looks stale or the scheduler isn't recording outcomes; skill-health flagged the same staleness yesterday.
+🟡 MISSING: digest (daily), mention-radar, pm-manipulation have no cron-state entry (never dispatched/recorded). reply-maker last success 2026-08-25 despite a weekday schedule.
+Healthy: memory-flush, skill-health, monitor-polymarket succeeded in the last 24h. No open PRs, urgent issues, or tracked issues.

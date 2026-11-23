@@ -1,0 +1,102 @@
+{
+  "root": "card-heartbeat",
+  "state": {},
+  "elements": {
+    "card-heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "⚠️ Heartbeat 2026-11-23"
+      },
+      "children": [
+        "alert-degraded",
+        "sep1",
+        "alert-missing",
+        "sep2",
+        "section-healthy"
+      ]
+    },
+    "alert-degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🔴 DEGRADED: Heartbeat itself",
+        "message": "Last recorded success 2026-08-25 (~90 days ago). cron-state.json looks stale or the scheduler isn't recording outcomes; skill-health flagged the same staleness yesterday."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-missing": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 MISSING: No cron-state entries",
+        "message": "digest (daily), mention-radar, pm-manipulation have no cron-state entry (never dispatched/recorded). reply-maker last success 2026-08-25 despite a weekday schedule."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-healthy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-healthy",
+        "stack-items"
+      ]
+    },
+    "heading-healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ Healthy",
+        "level": "h3"
+      }
+    },
+    "stack-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-memory-flush",
+        "badge-skill-health",
+        "badge-monitor-polymarket",
+        "text-no-issues"
+      ]
+    },
+    "badge-memory-flush": {
+      "type": "Badge",
+      "props": {
+        "text": "memory-flush — succeeded in the last 24h",
+        "variant": "default"
+      }
+    },
+    "badge-skill-health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health — succeeded in the last 24h",
+        "variant": "default"
+      }
+    },
+    "badge-monitor-polymarket": {
+      "type": "Badge",
+      "props": {
+        "text": "monitor-polymarket — succeeded in the last 24h",
+        "variant": "default"
+      }
+    },
+    "text-no-issues": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs, urgent issues, or tracked issues.",
+        "variant": "muted"
+      }
+    }
+  }
+}
