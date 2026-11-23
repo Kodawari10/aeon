@@ -1,0 +1,252 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker — 2026-11-23",
+        "description": "REPLY_MAKER_DEGRADED"
+      },
+      "children": [
+        "alert-degraded",
+        "separator-1",
+        "tweet-section",
+        "separator-2",
+        "analysis-section",
+        "separator-3",
+        "source-status"
+      ]
+    },
+    "alert-degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Status: REPLY_MAKER_DEGRADED"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-heading-with-note",
+        "tweet-url",
+        "tweet-metadata",
+        "tweet-card"
+      ]
+    },
+    "tweet-heading-with-note": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-counter",
+        "skip-note"
+      ]
+    },
+    "tweet-counter": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet 1 of 5",
+        "level": "h3"
+      }
+    },
+    "skip-note": {
+      "type": "Text",
+      "props": {
+        "text": "1 survived the skip gate (others off-topic, no standalone context, or unverifiable)",
+        "variant": "muted"
+      }
+    },
+    "tweet-url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/johnnyAonX/status/2125009285830652364",
+        "href": "https://x.com/johnnyAonX/status/2125009285830652364"
+      }
+    },
+    "tweet-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "@johnnyAonX • Just posted • 0 comments",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "johnnyAonX",
+        "handle": "johnnyAonX",
+        "text": "Just blew past $30k of trading profit in my main (discretionary) polymarket account…"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "why-section",
+        "options-heading",
+        "option-a",
+        "option-b"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis & Reply Options",
+        "level": "h3"
+      }
+    },
+    "why-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "why-heading",
+        "why-text"
+      ]
+    },
+    "why-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Why this tweet",
+        "level": "h4"
+      }
+    },
+    "why-text": {
+      "type": "Text",
+      "props": {
+        "text": "Profit milestone with no volume/ROI context; first-reply slot, room for a substantive add"
+      }
+    },
+    "options-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Suggested Replies",
+        "level": "h4"
+      }
+    },
+    "option-a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-a-badge",
+        "option-a-text"
+      ]
+    },
+    "option-a-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Option A",
+        "variant": "outline"
+      }
+    },
+    "option-a-text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket P&L is on-chain, so a wallet at +$30k is already trackable by anyone. The edge that survives is size you can build before copy-traders mirror your entries. Do you scale in over hours, or take the full position at once?"
+      }
+    },
+    "option-b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-b-badge",
+        "option-b-text"
+      ]
+    },
+    "option-b-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Option B",
+        "variant": "outline"
+      }
+    },
+    "option-b-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cumulative profit is the wrong stat. $30k on $2M of volume is noise, on $60k it's a real edge. Post volume, ROI and max drawdown. An equity curve beats a milestone screenshot."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "source-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source-heading",
+        "source-stats"
+      ]
+    },
+    "source-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "API Status",
+        "level": "h3"
+      }
+    },
+    "source-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-xai",
+        "stat-memory",
+        "stat-websearch"
+      ]
+    },
+    "stat-xai": {
+      "type": "Stat",
+      "props": {
+        "label": "XAI API",
+        "value": "ok (3 timeouts, minimal query ok)"
+      }
+    },
+    "stat-memory": {
+      "type": "Stat",
+      "props": {
+        "label": "Memory",
+        "value": "0"
+      }
+    },
+    "stat-websearch": {
+      "type": "Stat",
+      "props": {
+        "label": "WebSearch",
+        "value": "ok"
+      }
+    }
+  }
+}
