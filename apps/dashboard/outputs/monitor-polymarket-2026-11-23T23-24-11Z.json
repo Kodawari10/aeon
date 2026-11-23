@@ -1,0 +1,164 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "monitor-polymarket",
+        "description": "Prediction markets — watchlists empty"
+      },
+      "children": [
+        "alert-warning",
+        "separator-1",
+        "setup-section",
+        "separator-2",
+        "kalshi-section"
+      ]
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Watchlists Empty",
+        "message": "prediction markets — 2026-11-23: nothing monitored, both watchlists are empty."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "setup-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "setup-heading",
+        "setup-instructions",
+        "polymarket-file",
+        "kalshi-file"
+      ]
+    },
+    "setup-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup needed",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "setup-instructions": {
+      "type": "Text",
+      "props": {
+        "text": "Add one slug/ticker per line:"
+      },
+      "children": []
+    },
+    "polymarket-file": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Polymarket",
+        "href": "skills/monitor-polymarket/watchlist-polymarket.md",
+        "source": "slug from polymarket.com/event/{slug}"
+      },
+      "children": []
+    },
+    "kalshi-file": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kalshi",
+        "href": "skills/monitor-polymarket/watchlist-kalshi.md",
+        "source": "event ticker from kalshi.com/markets"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "kalshi-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "kalshi-heading",
+        "kalshi-note",
+        "kalshi-table",
+        "kalshi-footer"
+      ]
+    },
+    "kalshi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi trending",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "kalshi-note": {
+      "type": "Text",
+      "props": {
+        "text": "This run only, not tracked; sampled from first 400 open events, ~$ = 24h vol",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "kalshi-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Ticker",
+          "Description",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "KXRIEMANNRES-40",
+            "Riemann Hypothesis resolution timing",
+            "~$16k"
+          ],
+          [
+            "KXNEXTSPEAKER-31",
+            "next Speaker of the House",
+            "~$15k"
+          ],
+          [
+            "KXGTA6SONGS-30",
+            "GTA VI songs on radio at launch",
+            "~$10k"
+          ],
+          [
+            "KXPNP-32",
+            "P vs NP resolved",
+            "~$5k"
+          ],
+          [
+            "KXAGICO-COMP",
+            "when any company achieves AGI",
+            "~$4k"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "kalshi-footer": {
+      "type": "Text",
+      "props": {
+        "text": "Volumes are thin and none are prediction-market-platform news, so for OffMarket/Starknet relevance consider adding Polymarket events you already cover instead.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
