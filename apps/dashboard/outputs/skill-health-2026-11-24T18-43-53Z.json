@@ -1,0 +1,260 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-11-24"
+      },
+      "children": [
+        "alert-degraded",
+        "sep1",
+        "section-degraded",
+        "sep2",
+        "section-nodata",
+        "sep3",
+        "section-healthy",
+        "sep4",
+        "section-issues"
+      ]
+    },
+    "alert-degraded": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "HEALTH: DEGRADED(1)",
+        "message": "1 skill showing degraded performance"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-degraded": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-degraded",
+        "skill-reply-maker"
+      ]
+    },
+    "heading-degraded": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 Degraded",
+        "level": "h3"
+      }
+    },
+    "skill-reply-maker": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reply-maker-name",
+        "quality-metric",
+        "details-stack"
+      ]
+    },
+    "text-reply-maker-name": {
+      "type": "Text",
+      "props": {
+        "text": "reply-maker",
+        "variant": "lead"
+      }
+    },
+    "quality-metric": {
+      "type": "Progress",
+      "props": {
+        "value": 2,
+        "max": 2.5,
+        "label": "Quality Average (3 runs, threshold: 2.5)"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-timeout-issue",
+        "text-rejection-rate",
+        "text-investigate",
+        "link-issue"
+      ]
+    },
+    "text-timeout-issue": {
+      "type": "Text",
+      "props": {
+        "text": "xAI search timeouts (http=000) shrink candidates",
+        "variant": "caption"
+      }
+    },
+    "text-rejection-rate": {
+      "type": "Text",
+      "props": {
+        "text": "~80% rejected",
+        "variant": "caption"
+      }
+    },
+    "text-investigate": {
+      "type": "Badge",
+      "props": {
+        "text": "INVESTIGATE",
+        "variant": "destructive"
+      }
+    },
+    "link-issue": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ISS-001",
+        "href": "#ISS-001"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-nodata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-nodata",
+        "skill-mention-radar"
+      ]
+    },
+    "heading-nodata": {
+      "type": "Heading",
+      "props": {
+        "text": "⚪ No Data (1)",
+        "level": "h3"
+      }
+    },
+    "skill-mention-radar": {
+      "type": "Text",
+      "props": {
+        "text": "mention-radar — first run in progress",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-healthy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-healthy",
+        "grid-healthy"
+      ]
+    },
+    "heading-healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 Healthy",
+        "level": "h3"
+      }
+    },
+    "grid-healthy": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-skill-count",
+        "stat-failures",
+        "stat-total-runs",
+        "stat-in-progress"
+      ]
+    },
+    "stat-skill-count": {
+      "type": "Stat",
+      "props": {
+        "label": "Healthy Skills",
+        "value": "7"
+      }
+    },
+    "stat-failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Failures (7d)",
+        "value": "0"
+      }
+    },
+    "stat-total-runs": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Runs",
+        "value": "18"
+      }
+    },
+    "stat-in-progress": {
+      "type": "Stat",
+      "props": {
+        "label": "In Progress",
+        "value": "6"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-issues",
+        "grid-issues"
+      ]
+    },
+    "heading-issues": {
+      "type": "Heading",
+      "props": {
+        "text": "Issues",
+        "level": "h3"
+      }
+    },
+    "grid-issues": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-open",
+        "stat-resolved"
+      ]
+    },
+    "stat-open": {
+      "type": "Stat",
+      "props": {
+        "label": "Open",
+        "value": "1"
+      }
+    },
+    "stat-resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved This Run",
+        "value": "0"
+      }
+    }
+  }
+}

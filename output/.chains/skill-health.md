@@ -1,7 +1,10 @@
-*Skill Health — 2026-11-23*
-HEALTH: OK — 8 skills healthy, 0 failures in 7d (11 runs, 3 in progress)
+*Skill Health — 2026-11-24*
+HEALTH: DEGRADED(1)
 
-⚪ NO DATA (1): mention-radar — no run recorded yet since schedule start
-👀 Watch: reply-maker — quality score 2 (generic_content); only 2 runs so not yet DEGRADED
+🟡 DEGRADED
+- reply-maker — quality avg 2 over 3 runs (threshold 2.5); xAI search timeouts (http=000) shrink candidates, ~80% rejected — INVESTIGATE → ISS-001
 
-Open issues: 0 · Resolved this run: 0
+⚪ NO DATA (1): mention-radar — first run in progress
+🟢 HEALTHY: 7 · 0 failures in 7d (18 runs, 6 in progress)
+
+Open issues: 1 · Resolved this run: 0
