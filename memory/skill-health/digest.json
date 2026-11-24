@@ -1,16 +1,18 @@
 {
   "skill": "digest",
-  "last_analyzed": "2026-11-23T12:02:08Z",
-  "quality_score": 3,
-  "assessment": "Substantive, well-structured digest with actionable guidance, but specific claims (tweet IDs, figures, version numbers) cannot be independently verified and strategy prioritizes correctness first.",
-  "flags": [
-    "unverifiable_claim"
-  ],
-  "avg_score": 3,
+  "last_analyzed": "2026-11-24T18:45:50Z",
+  "quality_score": 4,
+  "assessment": "Well-structured digest with specific, time-bound events and sourced claims; substantive and actionable for the operator's Starknet focus.",
+  "flags": [],
+  "avg_score": 3.5,
   "history": [
     {
       "date": "2026-11-23",
       "score": 3
+    },
+    {
+      "date": "2026-11-24",
+      "score": 4
     }
   ]
 }

@@ -21,6 +21,7 @@
 | Date | Type | Key Topics |
 |------|------|------------|
 | 2026-11-23 | Starknet | Upbit STRK listing, independent-L1 whitepaper, L2 TVL narrative |
+| 2026-11-24 | Starknet | Realms Frontier S1, Loot Survivor on Abstract, Xverse multisig + STRK20 |
 
 ## Skills Built
 | Skill | Date | Notes |

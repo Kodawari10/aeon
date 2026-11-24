@@ -1,27 +1,22 @@
-ℹ️ Starknet digest 2026-11-23
+ℹ️ Starknet digest
 
-*Starknet — 2026-11-23*
+*Starknet — 2026-11-24*
 
-_TL;DR: STRK gained access to Korea's largest exchange while the independent-L1 whitepaper deadline closes out the month, and the outside narrative on Starknet's L2 relevance is turning negative._
+_TL;DR: Starknet gaming has two dated launches this week (Loot Survivor on Abstract Nov 25, Realms Frontier S1 Dec 2), and Xverse added multisig with STRK20 privacy-pool support._
 
-1. *STRK live on Upbit (BTC and USDT pairs)*
-   Upbit opened STRK/BTC and STRK/USDT markets on Nov 19, and StarkWare's anniversary thread on Nov 23 leads with it. Ben-Sasson tied the listing to Starknet's post-quantum prep.
-   Why it matters: Korean retail access is new, so expect Korean-language questions in Discord about STRK and the quantum roadmap. Have the "STARKs are hash-based, the risk is ECDSA keys, account abstraction lets wallets swap signatures" explainer ready.
-   https://x.com/StarkWareLtd/status/2124830011534512627
+1. *Realms Frontier S1 testnet live, mainnet season starts Dec 2*
+   Free-to-play onchain roguelite strategy game on Starknet. The S1 testnet opened today ahead of the Dec 2 launch.
+   Why it matters: a dated onchain-gaming event to prep community content around, and a chance to test before launch.
+   https://x.com/LootRealms/status/2125198600728887464
 
-2. *Independent-L1 whitepaper is due this month*
-   The Oct governance vote backed studying a quantum-resistant independent L1 with 93.5% support across 2,800+ wallets. It is non-binding, and a binding vote would still be needed. Ben-Sasson promised a draft whitepaper in November and targets 2027 for quantum-safety, against Ethereum's 2029. Re-surfaced because the deadline falls in the next 7 days.
-   Why it matters: if it drops, it will dominate the community conversation. Hold a short, factual "what's decided vs. not" reply.
-   https://www.bankless.com/read/news/starknet-votes-to-explore-going-solo-as-a-post-quantum-l1
+2. *Loot Survivor opens "Abstract Dungeon" Nov 25, 15:00 UTC*
+   Abstract users get 10 free games on day one, then free daily games; starting gold (up to 70) is set by Abstract tier, with beasts from Gigaverse and Cambria and a pool that buys beasts for SURVIVOR.
+   Why it matters: pulls a second chain's user base into a Starknet game tomorrow.
+   https://x.com/StarknetGaming/status/2125285900976291875
 
-3. *Outside narrative: "Starknet pivoted to BTCFi" after TVL fell from $323M to $32M*
-   A widely read L2 post-mortem (56 likes, 21 replies) lists Starknet among chains that "pivoted or barely hang on". These are the author's figures, not independently verified. It also says Blast and Polygon zkEVM have shut down, and that Base, Arbitrum and Optimism hold about 90% of L2 transactions.
-   Why it matters: this is the framing newcomers will meet. Answer with BTC-side data (strkBTC, Xverse multisig BTC support from Nov 16) rather than defending TVL.
-   https://x.com/anzep13/status/2124469335758442885
+3. *Xverse extension adds multisig with STRK20 privacy-pool support*
+   StarkWare says DAOs, businesses and funds can combine multisig with shielded transfers; users can hold BTC with co-signers, convert to strkBTC and shield it.
+   Why it matters: first multisig path into Starknet's privacy pools for treasuries, building on the BTC-on-Starknet push.
+   https://x.com/StarkWareLtd/status/2124830008296247371
 
-4. *Starknet turned five this week*
-   StarkWare's Nov 23 thread closes on the anniversary: "still plenty left to prove." Eli Ben-Sasson on AI and cryptography is the featured clip on @Starknet.
-   Why it matters: an easy hook for a community recap post, with no new claims needed.
-   https://x.com/StarkWareLtd/status/2124830023454781564
-
-*Also worth a glance:* 127M STRK Early Contributor unlock on Nov 15 hit a thin market, more than 14% of that day's volume ([cryptoticker](https://cryptoticker.io/en/starknet-strk-unlock-november-15-trading-volume/)) · v0.14.4 on mainnet adds larger-proof support (SNIP-36) and new gas pricing.
+*Also worth a glance:* Weekly recap (Starknet Research / @hieuvueth, self-reported) cites Paradex options passing $1B in volume, Haven past 2,500 users, SuperVega adding SOL options, and "only 4 monthly investor and contributor unlocks remain" - https://x.com/hieuvueth/status/2124900471823614020

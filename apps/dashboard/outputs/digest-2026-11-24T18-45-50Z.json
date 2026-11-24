@@ -1,0 +1,211 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Starknet digest",
+        "description": "2026-11-24"
+      },
+      "children": [
+        "tldr",
+        "sep1",
+        "item1-stack",
+        "item2-stack",
+        "item3-stack",
+        "sep2",
+        "also-glance"
+      ]
+    },
+    "tldr": {
+      "type": "Text",
+      "props": {
+        "text": "Starknet gaming has two dated launches this week (Loot Survivor on Abstract Nov 25, Realms Frontier S1 Dec 2), and Xverse added multisig with STRK20 privacy-pool support.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1-title",
+        "item1-desc",
+        "item1-why",
+        "item1-link"
+      ]
+    },
+    "item1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Realms Frontier S1 testnet live, mainnet season starts Dec 2",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Free-to-play onchain roguelite strategy game on Starknet. The S1 testnet opened today ahead of the Dec 2 launch."
+      },
+      "children": []
+    },
+    "item1-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: a dated onchain-gaming event to prep community content around, and a chance to test before launch.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "item1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Realms Frontier S1 testnet live, mainnet season starts Dec 2",
+        "href": "https://x.com/LootRealms/status/2125198600728887464"
+      },
+      "children": []
+    },
+    "item2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2-title",
+        "item2-desc",
+        "item2-why",
+        "item2-link"
+      ]
+    },
+    "item2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Loot Survivor opens \"Abstract Dungeon\" Nov 25, 15:00 UTC",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Abstract users get 10 free games on day one, then free daily games; starting gold (up to 70) is set by Abstract tier, with beasts from Gigaverse and Cambria and a pool that buys beasts for SURVIVOR."
+      },
+      "children": []
+    },
+    "item2-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: pulls a second chain's user base into a Starknet game tomorrow.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "item2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Loot Survivor opens \"Abstract Dungeon\" Nov 25, 15:00 UTC",
+        "href": "https://x.com/StarknetGaming/status/2125285900976291875"
+      },
+      "children": []
+    },
+    "item3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3-title",
+        "item3-desc",
+        "item3-why",
+        "item3-link"
+      ]
+    },
+    "item3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Xverse extension adds multisig with STRK20 privacy-pool support",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "StarkWare says DAOs, businesses and funds can combine multisig with shielded transfers; users can hold BTC with co-signers, convert to strkBTC and shield it."
+      },
+      "children": []
+    },
+    "item3-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: first multisig path into Starknet's privacy pools for treasuries, building on the BTC-on-Starknet push.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "item3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Xverse extension adds multisig with STRK20 privacy-pool support",
+        "href": "https://x.com/StarkWareLtd/status/2124830008296247371"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "also-glance": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "also-title",
+        "also-desc",
+        "also-link"
+      ]
+    },
+    "also-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "also-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly recap (Starknet Research / @hieuvueth, self-reported) cites Paradex options passing $1B in volume, Haven past 2,500 users, SuperVega adding SOL options, and \"only 4 monthly investor and contributor unlocks remain\"."
+      },
+      "children": []
+    },
+    "also-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Weekly recap",
+        "href": "https://x.com/hieuvueth/status/2124900471823614020"
+      },
+      "children": []
+    }
+  }
+}
