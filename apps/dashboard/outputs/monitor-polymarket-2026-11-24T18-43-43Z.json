@@ -1,0 +1,103 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "monitor-polymarket",
+        "description": "Prediction markets — 2026-11-24"
+      },
+      "children": [
+        "alert-no-watchlist",
+        "sep-1",
+        "content-stack"
+      ]
+    },
+    "alert-no-watchlist": {
+      "type": "Alert",
+      "props": {
+        "title": "No watchlist configured",
+        "message": "Nothing monitored. Both watchlists are empty, so no Polymarket or Kalshi markets were checked.",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fix-heading",
+        "fix-stack",
+        "sep-2",
+        "kalshi-heading",
+        "kalshi-text"
+      ]
+    },
+    "fix-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fix",
+        "level": "h3"
+      }
+    },
+    "fix-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fix-line-1",
+        "fix-line-2",
+        "fix-line-3"
+      ]
+    },
+    "fix-line-1": {
+      "type": "Text",
+      "props": {
+        "text": "Add one slug per line to skills/monitor-polymarket/watchlist-polymarket.md (e.g. an offmarket.cx / Starknet-relevant event)"
+      }
+    },
+    "fix-line-2": {
+      "type": "Text",
+      "props": {
+        "text": "Add one ticker per line to skills/monitor-polymarket/watchlist-kalshi.md"
+      }
+    },
+    "fix-line-3": {
+      "type": "Text",
+      "props": {
+        "text": "Or run once with var=polymarket:<event-slug> or kalshi:<event-ticker>"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kalshi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi market status",
+        "level": "h4"
+      }
+    },
+    "kalshi-text": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi's open-events feed currently shows only long-dated, low-volume markets (top: P vs NP resolution, AGI timing, next Speaker), so there is nothing worth tracking from discovery.",
+        "variant": "muted"
+      }
+    }
+  }
+}
