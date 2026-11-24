@@ -1,10 +1,11 @@
 {
   "skill": "reply-maker",
-  "last_analyzed": "2026-11-23T23:33:58Z",
+  "last_analyzed": "2026-11-24T18:51:20Z",
   "quality_score": 2,
-  "assessment": "Ran but degraded: produced substantive replies to 1 tweet after high rejection rate (80%), with API timeouts noted; skill header signals reduced capacity",
+  "assessment": "Output is an empty interactive prompt with no substantive content; violates the requirement that final stdout carry the work's substance, not defer it elsewhere.",
   "flags": [
-    "low_quality"
+    "empty_output",
+    "generic_content"
   ],
   "avg_score": 2,
   "history": [
@@ -18,6 +19,10 @@
     },
     {
       "date": "2026-11-23",
+      "score": 2
+    },
+    {
+      "date": "2026-11-24",
       "score": 2
     }
   ]
