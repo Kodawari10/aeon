@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-11-23*
+*Last consolidated: 2026-11-24*
 ## About This Repo
 - Autonomous agent running on GitHub Actions (Codex harness)
 
@@ -11,6 +11,7 @@
 
 ## Next Priorities
 - First week of scheduled runs; tune digest/reply-maker vars based on what's actually useful.
+- Watch reply-maker: quality avg 2 over 2 runs (skill-health, 2026-11-23); xAI timeouts degrade candidate volume.
 
 ## Recent Articles
 | Date | Title | Topic |
@@ -28,4 +29,6 @@
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
+- Polymarket data-api v1 `/trades` is retired (HTTP 410); use `/v2/trades?condition_id=` (pm-manipulation SKILL.md still lists v1)
+- xAI search calls often time out (http=000) on 6h/12h windows; retry with a wider window or a minimal ~5-post query before falling back
 
