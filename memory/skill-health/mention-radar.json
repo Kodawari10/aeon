@@ -1,0 +1,14 @@
+{
+  "skill": "mention-radar",
+  "last_analyzed": "2026-11-24T18:48:28Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-structured report with specific posts (URLs, IDs, quotes), clear categorization, and actionable engagement opportunities tied to strategic value; operator can verify via links",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-11-24",
+      "score": 4
+    }
+  ]
+}

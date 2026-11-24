@@ -7,4 +7,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-11-23,reply-maker,claude-sonnet-5-5,2465,20783,1073955,52316
 2026-11-23,reply-maker,claude-sonnet-5-5,2614,11485,1626510,135814
 2026-11-24,memory-flush,claude-sonnet-5-5,2571,2059,266399,48069
-2026-11-24,digest,claude-sonnet-5-5,2326,6058,661867,84618
+2026-11-24,mention-radar,claude-sonnet-5-5,2328,7198,754249,29376

@@ -1,0 +1,554 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "2026-11-24"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-offmarket",
+        "separator1",
+        "section-starknet",
+        "separator2",
+        "section-engagement",
+        "separator3",
+        "section-summary"
+      ]
+    },
+    "section-offmarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-offmarket",
+        "offmarket-status-box",
+        "offmarket-press-box"
+      ]
+    },
+    "heading-offmarket": {
+      "type": "Heading",
+      "props": {
+        "text": "OffMarket",
+        "level": "h2"
+      }
+    },
+    "offmarket-status-box": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-offmarket-status",
+        "badge-quiet-x"
+      ]
+    },
+    "text-offmarket-status": {
+      "type": "Text",
+      "props": {
+        "text": "No organic discovery, confusion, friction, comparison or feature-request posts in the last 7 days. Only promo and thread replies on the public-trade-leakage pitch.",
+        "variant": "body"
+      }
+    },
+    "badge-quiet-x": {
+      "type": "Badge",
+      "props": {
+        "text": "QUIET on X",
+        "variant": "secondary"
+      }
+    },
+    "offmarket-press-box": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-press-label",
+        "press-link1",
+        "press-link2",
+        "text-press-note"
+      ]
+    },
+    "text-press-label": {
+      "type": "Text",
+      "props": {
+        "text": "Launch coverage still circulating:",
+        "variant": "caption"
+      }
+    },
+    "press-link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Prediction News",
+        "href": "https://predictionnews.com/story/starkware-launches-offmarket-for-private-polymarket-trading",
+        "source": "Press"
+      }
+    },
+    "press-link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Crypto Briefing",
+        "href": "https://cryptobriefing.com/starkware-offmarket-private-polymarket-trading/",
+        "source": "Press"
+      }
+    },
+    "text-press-note": {
+      "type": "Text",
+      "props": {
+        "text": "Frame: 'StarkWare launches OffMarket'; stress it is independent and not affiliated with Polymarket",
+        "variant": "caption"
+      }
+    },
+    "section-starknet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-starknet",
+        "post1",
+        "post2",
+        "post3",
+        "post4",
+        "post5",
+        "post6",
+        "text-skipped-posts"
+      ]
+    },
+    "heading-starknet": {
+      "type": "Heading",
+      "props": {
+        "text": "Starknet",
+        "level": "h2"
+      }
+    },
+    "post1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post1-link",
+        "post1-text",
+        "post1-badges"
+      ]
+    },
+    "post1-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/Dropstab_com (~107k followers)",
+        "href": "https://x.com/Dropstab_com/status/2125250276798132614"
+      }
+    },
+    "post1-text": {
+      "type": "Text",
+      "props": {
+        "text": "$100k in every major L2 at launch is now $2,768; Starknet listed at -98.5%",
+        "variant": "body"
+      }
+    },
+    "post1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "post1-badge-category",
+        "post1-badge-traction"
+      ]
+    },
+    "post1-badge-category": {
+      "type": "Badge",
+      "props": {
+        "text": "Competitor comparison / negative",
+        "variant": "destructive"
+      }
+    },
+    "post1-badge-traction": {
+      "type": "Badge",
+      "props": {
+        "text": "2 likes, low traction",
+        "variant": "outline"
+      }
+    },
+    "post2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post2-link",
+        "post2-text",
+        "post2-badge"
+      ]
+    },
+    "post2-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/bloodredfrog",
+        "href": "https://x.com/bloodredfrog/status/2125250849609744756"
+      }
+    },
+    "post2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Airdrop farmer sells STRK, LayerZero, zkSync and Linea on receipt, holds only ETH",
+        "variant": "body"
+      }
+    },
+    "post2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Friction / airdrop sell pressure",
+        "variant": "destructive"
+      }
+    },
+    "post3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post3-link",
+        "post3-text",
+        "post3-badge"
+      ]
+    },
+    "post3-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/Zoccazica (11/17, 9 likes)",
+        "href": "https://x.com/Zoccazica/status/2122837543498502530"
+      }
+    },
+    "post3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Starknet already runs hash-based STARK proving, BLAKE2 and a post-quantum wallet transfer on mainnet; ties it to the independent-L1 debate",
+        "variant": "body"
+      }
+    },
+    "post3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery / positive",
+        "variant": "default"
+      }
+    },
+    "post4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post4-link",
+        "post4-text",
+        "post4-badge"
+      ]
+    },
+    "post4-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/epure_liviu",
+        "href": "https://x.com/epure_liviu/status/2123828208290169254"
+      }
+    },
+    "post4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Long take: STARKs rest on hash assumptions, so the exposure is account signatures and the bridge contract; the L1 question is about migration timing, 2027 vs Dec 2029",
+        "variant": "body"
+      }
+    },
+    "post4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Competitor comparison / technical",
+        "variant": "outline"
+      }
+    },
+    "post5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post5-link",
+        "post5-text",
+        "post5-badge"
+      ]
+    },
+    "post5-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/stakeingermany (~4.6k followers)",
+        "href": "https://x.com/stakeingermany/status/2123793849126449549"
+      }
+    },
+    "post5-text": {
+      "type": "Text",
+      "props": {
+        "text": "Asks how much a post-quantum calldata fallback (instead of blobs) would raise user tx costs",
+        "variant": "body"
+      }
+    },
+    "post5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion / question",
+        "variant": "outline"
+      }
+    },
+    "post6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post6-link",
+        "post6-text",
+        "post6-badge"
+      ]
+    },
+    "post6-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/alex_ohre",
+        "href": "https://x.com/alex_ohre/status/2123341105081057678"
+      }
+    },
+    "post6-text": {
+      "type": "Text",
+      "props": {
+        "text": "Most losses this week were app-layer; asks if Starknet is building invariant tooling for app devs",
+        "variant": "body"
+      }
+    },
+    "post6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Feature request",
+        "variant": "secondary"
+      }
+    },
+    "text-skipped-posts": {
+      "type": "Text",
+      "props": {
+        "text": "Low value posts skipped: airdrop-list spam (@RehanKhanSafi20), vague hype (@Elizabethasenci)",
+        "variant": "caption"
+      }
+    },
+    "section-engagement": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-engagement",
+        "eng1",
+        "eng2",
+        "eng3",
+        "eng4"
+      ]
+    },
+    "heading-engagement": {
+      "type": "Heading",
+      "props": {
+        "text": "Engagement Opportunities",
+        "level": "h2"
+      }
+    },
+    "eng1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng1-link",
+        "eng1-text"
+      ]
+    },
+    "eng1-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/stakeingermany",
+        "href": "https://x.com/stakeingermany/status/2123793849126449549"
+      }
+    },
+    "eng1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Concrete cost question on the PQ fallback; a sourced answer or a pointer to the Starknet PQ work gets in front of a ~4.6k staking audience",
+        "variant": "caption"
+      }
+    },
+    "eng2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng2-link",
+        "eng2-text"
+      ]
+    },
+    "eng2-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/alex_ohre",
+        "href": "https://x.com/alex_ohre/status/2123341105081057678"
+      }
+    },
+    "eng2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Direct ask about invariant/formal-verification tooling for app devs; a short pointer to Cairo tooling would land well",
+        "variant": "caption"
+      }
+    },
+    "eng3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng3-header",
+        "eng3-link1",
+        "eng3-link2",
+        "eng3-text"
+      ]
+    },
+    "eng3-header": {
+      "type": "Text",
+      "props": {
+        "text": "x.com/Zoccazica + x.com/epure_liviu",
+        "variant": "lead"
+      }
+    },
+    "eng3-link1": {
+      "type": "Link",
+      "props": {
+        "label": "Zoccazica",
+        "href": "https://x.com/Zoccazica/status/2122837543498502530"
+      }
+    },
+    "eng3-link2": {
+      "type": "Link",
+      "props": {
+        "label": "epure_liviu",
+        "href": "https://x.com/epure_liviu/status/2123828208290169254"
+      }
+    },
+    "eng3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Both engage seriously with the independent-L1/PQ debate and follow the Upbit/whitepaper cycle; a substantive add (a stat or a timeline) fits the 'substance over promo' style",
+        "variant": "caption"
+      }
+    },
+    "eng4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eng4-link",
+        "eng4-text",
+        "eng4-badge"
+      ]
+    },
+    "eng4-link": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/Dropstab_com",
+        "href": "https://x.com/Dropstab_com/status/2125250276798132614"
+      }
+    },
+    "eng4-text": {
+      "type": "Text",
+      "props": {
+        "text": "A reply would amplify the -98.5% framing; the narrative matters more than the post",
+        "variant": "caption"
+      }
+    },
+    "eng4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Watch only",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-summary",
+        "text-summary"
+      ]
+    },
+    "heading-summary": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary",
+        "level": "h3"
+      }
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "OffMarket (X): no external conversation found.",
+        "variant": "body"
+      }
+    }
+  }
+}
