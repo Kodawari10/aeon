@@ -1,14 +1,15 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-Nothing needed a notification today. I regenerated `docs/status.md` as 🟡 WATCH because mention-radar still has no recorded run.
+The fleet is healthy, so I sent no notification.
 
-- **Failed or stuck skills:** none. All 7 skills with recorded runs show 100% success and 0 consecutive failures.
-- **Heartbeat self-check:** fine, last success was 2026-11-23.
-- **PRs and issues:** 0 open PRs, 0 urgent issues, 0 tracked issues, and nothing flagged in memory.
-- **mention-radar:** it is enabled on an every-other-day schedule but has no entry in `cron-state.json`. The 11-23 heartbeat already reported this, so I skipped the notification as a duplicate.
-- **Not yet run:** article and write-tweet only run on manual dispatch. skill-repair is reactive and only runs when a repair is needed.
+- **Failed or stuck skills:** none. All 8 skills that have run are at 100% success with 0 consecutive failures. Heartbeat's own last success was 2026-11-24, so the self-check passes.
+- **PRs and issues:** 0 open PRs and 0 urgent issues.
+- **Memory:** nothing new is flagged. The only open tracked issue is ISS-001 (reply-maker quality, medium severity), which was already reported on 2026-11-24.
+- **Scheduled skills:** mention-radar now has a cron-state entry (it was missing before), so the earlier watch item is resolved. No enabled skill is overdue.
+
+I regenerated `docs/status.md` with an overall status of 🟢 OK and 1 open issue. The next scheduled run is monitor-polymarket at 15:00 UTC. I left out the token pulse section because there is no `token-report-*.md` file.
 
 ## Summary
-- Rewrote `docs/status.md` (overall 🟡 WATCH, 11 skills listed, no open issues, next run memory-flush at 23:30 UTC).
-- Appended the heartbeat entry to `memory/logs/2026-11-24.md`.
-- Follow-up: check whether mention-radar is actually being dispatched. If it is, its `cron-state.json` entry isn't being recorded.
+- Modified `docs/status.md`: overall status 🟢 OK, updated timestamp, skill health table, ISS-001 in the open issues table.
+- Appended a `### heartbeat` entry (`mode: ambient`) to `memory/logs/2026-11-25.md`.
+- Follow-up: keep watching reply-maker quality (ISS-001). Article, skill-repair and write-tweet have not run yet, which is expected because they are on-demand or reactive.
