@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-11-24*
+*Last consolidated: 2026-11-25*
 ## About This Repo
 - Autonomous agent running on GitHub Actions (Codex harness)
 
@@ -11,7 +11,8 @@
 
 ## Next Priorities
 - First week of scheduled runs; tune digest/reply-maker vars based on what's actually useful.
-- Watch reply-maker: quality avg 2 over 2 runs (skill-health, 2026-11-23); xAI timeouts degrade candidate volume.
+- Watch reply-maker: quality avg 2 over 3 runs, ISS-001 open (skill-health, 2026-11-24); xAI timeouts degrade candidate volume.
+- mention-radar ran first time 2026-11-24 (OffMarket quiet, Starknet 6 mentions); still no cron-state entry (heartbeat P3) - confirm it registers.
 
 ## Recent Articles
 | Date | Title | Topic |
