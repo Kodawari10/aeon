@@ -1,0 +1,29 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "reply-maker"
+      },
+      "children": [
+        "text-tag",
+        "text-message"
+      ]
+    },
+    "text-tag": {
+      "type": "Text",
+      "props": {
+        "text": "[reply-maker::revise]",
+        "variant": "caption"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Want to refine these replies? Reply with a change and I'll revise them."
+      }
+    }
+  }
+}
