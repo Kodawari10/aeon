@@ -23,6 +23,7 @@
 |------|------|------------|
 | 2026-11-23 | Starknet | Upbit STRK listing, independent-L1 whitepaper, L2 TVL narrative |
 | 2026-11-24 | Starknet | Realms Frontier S1, Loot Survivor on Abstract, Xverse multisig + STRK20 |
+| 2026-11-25 | Starknet | OZ Falcon-512 PQ accounts, Proof accelerator lessons, STRK unlock cadence |
 
 ## Skills Built
 | Skill | Date | Notes |

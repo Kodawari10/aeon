@@ -1,0 +1,331 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Starknet digest 2026-11-25"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tldr-text",
+        "sep-1",
+        "item1-heading",
+        "item1-desc",
+        "item1-why-stack",
+        "item1-links-stack",
+        "sep-2",
+        "item2-heading",
+        "item2-desc",
+        "item2-why-stack",
+        "item2-link",
+        "sep-3",
+        "item3-heading",
+        "item3-desc",
+        "item3-why-stack",
+        "item3-links-stack",
+        "sep-4",
+        "also-heading",
+        "also-stack",
+        "sep-5",
+        "closing-text"
+      ]
+    },
+    "tldr-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet news day; the substantive threads are post-quantum account tooling maturing, first-accelerator lessons, and a fixed STRK unlock calendar through March.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "OpenZeppelin folds Falcon-512 gas work into Starknet PQ accounts",
+        "level": "h3"
+      }
+    },
+    "item1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "An OpenZeppelin repo now ships deployable post-quantum account verifiers (Falcon-512 with three hash variants; one spec-compliant, two cheaper). A spec-compliant Falcon-512 account has already executed a mainnet transfer for roughly $0.06, and OZ docs cover migrating an existing account to Falcon keys at the same address. A contributor on X says the provably.fast challenge ideas fed the gas optimizations.",
+        "variant": "body"
+      }
+    },
+    "item1-why-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1-why-label",
+        "item1-why-text"
+      ]
+    },
+    "item1-why-label": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters:",
+        "variant": "muted"
+      }
+    },
+    "item1-why-text": {
+      "type": "Text",
+      "props": {
+        "text": "Gives a concrete cost figure for the post-quantum / independent-L1 debate (calldata-fallback cost was the open question in mentions yesterday). The OZ code is marked experimental and unaudited.",
+        "variant": "body"
+      }
+    },
+    "item1-links-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item1-link-gh",
+        "item1-link-x"
+      ]
+    },
+    "item1-link-gh": {
+      "type": "Link",
+      "props": {
+        "label": "GitHub: cairo-pq-verifiers",
+        "href": "https://github.com/OpenZeppelin/cairo-pq-verifiers"
+      }
+    },
+    "item1-link-x": {
+      "type": "Link",
+      "props": {
+        "label": "Discussion on X",
+        "href": "https://x.com/Nadai02010/status/2125218942608183788"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Proof, Starknet's first accelerator, publishes 7 lessons for 0-to-1 founders",
+        "level": "h3"
+      }
+    },
+    "item2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cohort 01 (\"Proof of Privacy\", STRK20 builders) ran Jul 20 – Sep 14 and demoed 7 teams. The thread is the first public retrospective.",
+        "variant": "body"
+      }
+    },
+    "item2-why-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2-why-label",
+        "item2-why-text"
+      ]
+    },
+    "item2-why-label": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters:",
+        "variant": "muted"
+      }
+    },
+    "item2-why-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reusable material for builder-facing community posts; Cohort 01 teams are the natural ones to spotlight.",
+        "variant": "body"
+      }
+    },
+    "item2-link": {
+      "type": "Link",
+      "props": {
+        "label": "Proof cohort retrospective on X",
+        "href": "https://x.com/jessguessing/status/2125250128546279697"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "STRK unlock cadence: 127M per month through March 2027",
+        "level": "h3"
+      }
+    },
+    "item3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Circulating supply is roughly 7.8B per a market-data thread; the Nov 15 batch of up to 127M STRK was the latest, with four monthly batches left (about 6.6% of circulating). Next batch is mid-December, assuming the 15th cadence holds.",
+        "variant": "body"
+      }
+    },
+    "item3-why-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3-why-label",
+        "item3-why-text"
+      ]
+    },
+    "item3-why-label": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters:",
+        "variant": "muted"
+      }
+    },
+    "item3-why-text": {
+      "type": "Text",
+      "props": {
+        "text": "The supply overhang is the main recurring bearish talking point in mentions, so the schedule is worth having at hand for replies.",
+        "variant": "body"
+      }
+    },
+    "item3-links-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "item3-link-tokenomist",
+        "item3-link-x"
+      ]
+    },
+    "item3-link-tokenomist": {
+      "type": "Link",
+      "props": {
+        "label": "Market data: Tokenomist",
+        "href": "https://tokenomist.ai/starknet"
+      }
+    },
+    "item3-link-x": {
+      "type": "Link",
+      "props": {
+        "label": "Discussion on X",
+        "href": "https://x.com/TheAltconomy/status/2125220583013306564"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "also-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      }
+    },
+    "also-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "also-item1-stack",
+        "also-item2-stack"
+      ]
+    },
+    "also-item1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "also-item1-text",
+        "also-item1-link"
+      ]
+    },
+    "also-item1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Eli Ben-Sasson on a privacy / AI / quantum panel at Blockchain Life, Dubai, Dec 2",
+        "variant": "body"
+      }
+    },
+    "also-item1-link": {
+      "type": "Link",
+      "props": {
+        "label": "Event announcement on X",
+        "href": "https://x.com/LunaPRofficial/status/2125538956456722487"
+      }
+    },
+    "also-item2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "also-item2-text",
+        "also-item2-link"
+      ]
+    },
+    "also-item2-text": {
+      "type": "Text",
+      "props": {
+        "text": "A self-reported activity stat puts monthly active addresses at 38.1K, about 0.1% L2 share, unverified source",
+        "variant": "body"
+      }
+    },
+    "also-item2-link": {
+      "type": "Link",
+      "props": {
+        "label": "Activity report on X",
+        "href": "https://x.com/sallubroz/status/2125143633829494905"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "closing-text": {
+      "type": "Text",
+      "props": {
+        "text": "Thin day: only 3 items cleared the bar; Xverse multisig, Upbit listing and Paradex $1B were already covered Nov 23-24 and dropped.",
+        "variant": "caption"
+      }
+    }
+  }
+}
