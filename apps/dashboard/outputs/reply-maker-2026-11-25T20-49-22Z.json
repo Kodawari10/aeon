@@ -1,0 +1,478 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker"
+      },
+      "children": [
+        "meta-stack",
+        "separator-1",
+        "item-1-num",
+        "item-1-stack",
+        "separator-2",
+        "item-2-num",
+        "item-2-stack",
+        "separator-3",
+        "item-3-num",
+        "item-3-stack",
+        "separator-4",
+        "notes-stack"
+      ]
+    },
+    "meta-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "date-text",
+        "status-badge"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-11-25",
+        "variant": "muted"
+      }
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Degraded: 3 of 5",
+        "variant": "warning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-1-num": {
+      "type": "Text",
+      "props": {
+        "text": "1.",
+        "variant": "lead"
+      }
+    },
+    "item-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-1-url",
+        "item-1-meta",
+        "item-1-quote",
+        "item-1-why-stack",
+        "item-1-reply-a-stack",
+        "item-1-reply-b-stack"
+      ]
+    },
+    "item-1-url": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/shayne_coplan/status/2125653367640805799",
+        "href": "https://x.com/shayne_coplan/status/2125653367640805799"
+      }
+    },
+    "item-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "@shayne_coplan, ~2h35m ago, 195💬, 2.1k❤",
+        "variant": "caption"
+      }
+    },
+    "item-1-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Compute markets are finally here. @Polymarket now prices on-demand compute for H100s, B200s, B300s…",
+        "variant": "body"
+      }
+    },
+    "item-1-why-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-why-label",
+        "item-1-why-text"
+      ]
+    },
+    "item-1-why-label": {
+      "type": "Text",
+      "props": {
+        "text": "why:",
+        "variant": "caption"
+      }
+    },
+    "item-1-why-text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket CEO launching GPU-rental-price markets; huge visibility, room for a numbers-based take",
+        "variant": "body"
+      }
+    },
+    "item-1-reply-a-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-reply-a-label",
+        "item-1-reply-a-text"
+      ]
+    },
+    "item-1-reply-a-label": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "outline"
+      }
+    },
+    "item-1-reply-a-text": {
+      "type": "Text",
+      "props": {
+        "text": "Curve is already readable: H100 $3.16/hr now, $1.98 by end-2028; B200 $9.07 to $5.83. That's roughly 35% rental deflation priced in, the number every GPU-backed loan on a 5-6yr depreciation schedule needs to survive. Depth past mid-2027 is the open question.",
+        "variant": "body"
+      }
+    },
+    "item-1-reply-b-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-reply-b-label",
+        "item-1-reply-b-text"
+      ]
+    },
+    "item-1-reply-b-label": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "outline"
+      }
+    },
+    "item-1-reply-b-text": {
+      "type": "Text",
+      "props": {
+        "text": "Calling it a yield curve oversells it. A curve needs depth at every tenor, and contracts past mid-2027 reportedly hold $11-58k each. That's a signal, not a hedge. No lender hedges a billion-dollar GPU loan against a $30k market.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2-num": {
+      "type": "Text",
+      "props": {
+        "text": "2.",
+        "variant": "lead"
+      }
+    },
+    "item-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-2-url",
+        "item-2-meta",
+        "item-2-quote",
+        "item-2-why-stack",
+        "item-2-reply-a-stack",
+        "item-2-reply-b-stack"
+      ]
+    },
+    "item-2-url": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/malekanoms/status/2125570990558089631",
+        "href": "https://x.com/malekanoms/status/2125570990558089631"
+      }
+    },
+    "item-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "@malekanoms, ~8h ago, 18💬, 147❤",
+        "variant": "caption"
+      }
+    },
+    "item-2-quote": {
+      "type": "Text",
+      "props": {
+        "text": "I'm afraid I have to agree… prediction markets in their current form have flipped to a net negative for society…",
+        "variant": "body"
+      }
+    },
+    "item-2-why-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-why-label",
+        "item-2-why-text"
+      ]
+    },
+    "item-2-why-label": {
+      "type": "Text",
+      "props": {
+        "text": "why:",
+        "variant": "caption"
+      }
+    },
+    "item-2-why-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sharp anti-PM take from a 20-year PM user; the thread is still small, so a substantive reply gets seen",
+        "variant": "body"
+      }
+    },
+    "item-2-reply-a-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-reply-a-label",
+        "item-2-reply-a-text"
+      ]
+    },
+    "item-2-reply-a-label": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "outline"
+      }
+    },
+    "item-2-reply-a-text": {
+      "type": "Text",
+      "props": {
+        "text": "The fee schedule leans the same way. Polymarket US taker fee is 0.0695*p*(1-p): 5.6% of stake on a 20c contract vs 4.2% at 40c. The lottery-ticket end of the book pays the most, while the pitch is hedging and information.",
+        "variant": "body"
+      }
+    },
+    "item-2-reply-b-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-reply-b-label",
+        "item-2-reply-b-text"
+      ]
+    },
+    "item-2-reply-b-label": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "outline"
+      }
+    },
+    "item-2-reply-b-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Net negative\" lumps two products under one ticker. Fed-path and election contracts, and now Polymarket's GPU price curves, are hedging tools. Minute-scale sports and crypto contracts are casinos. Regulate the second, don't write off the first.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3-num": {
+      "type": "Text",
+      "props": {
+        "text": "3.",
+        "variant": "lead"
+      }
+    },
+    "item-3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-3-url",
+        "item-3-meta",
+        "item-3-quote",
+        "item-3-why-stack",
+        "item-3-reply-a-stack",
+        "item-3-reply-b-stack"
+      ]
+    },
+    "item-3-url": {
+      "type": "Link",
+      "props": {
+        "label": "x.com/_Chain_Duck_/status/2125690668475388092",
+        "href": "https://x.com/_Chain_Duck_/status/2125690668475388092"
+      }
+    },
+    "item-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "@_Chain_Duck_, ~8m ago, 1💬",
+        "variant": "caption"
+      }
+    },
+    "item-3-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket US: 70% of API taker fees back. Where does the $16.68 come from? fee = 0.0695 × contracts × p × (1−p)…",
+        "variant": "body"
+      }
+    },
+    "item-3-why-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-why-label",
+        "item-3-why-text"
+      ]
+    },
+    "item-3-why-label": {
+      "type": "Text",
+      "props": {
+        "text": "why:",
+        "variant": "caption"
+      }
+    },
+    "item-3-why-text": {
+      "type": "Text",
+      "props": {
+        "text": "fresh fee-structure breakdown, almost no replies yet; the math is checkable",
+        "variant": "body"
+      }
+    },
+    "item-3-reply-a-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-reply-a-label",
+        "item-3-reply-a-text"
+      ]
+    },
+    "item-3-reply-a-label": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "outline"
+      }
+    },
+    "item-3-reply-a-text": {
+      "type": "Text",
+      "props": {
+        "text": "Math checks: 1,000 @ 40c = $16.68, 4.2% of the $400 stake; 20c = 5.6%, 10c = 6.3%. Dollar fee peaks at 50c, but fee as % of stake peaks at the longshots. After the 70% rebate: ~1.3% / 1.7% / 1.9%.",
+        "variant": "body"
+      }
+    },
+    "item-3-reply-b-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-reply-b-label",
+        "item-3-reply-b-text"
+      ]
+    },
+    "item-3-reply-b-label": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "outline"
+      }
+    },
+    "item-3-reply-b-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"70% back\" as posted only covers API takers on straight trades, through Dec 31. That's a bot and market-maker subsidy. A UI trader still pays the full 4-6% of stake on a 20-40c contract, and it expires Dec 31.",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notes-title",
+        "notes-line-1",
+        "notes-line-2",
+        "notes-line-3",
+        "notes-line-4"
+      ]
+    },
+    "notes-title": {
+      "type": "Heading",
+      "props": {
+        "text": "notes",
+        "level": "h4"
+      }
+    },
+    "notes-line-1": {
+      "type": "Text",
+      "props": {
+        "text": "#1 figures come from @bbelux's read of the Polymarket compute markets (Ornn indices), not verified independently.",
+        "variant": "caption"
+      }
+    },
+    "notes-line-2": {
+      "type": "Text",
+      "props": {
+        "text": "#2 is outside the 6h window (12h fallback).",
+        "variant": "caption"
+      }
+    },
+    "notes-line-3": {
+      "type": "Text",
+      "props": {
+        "text": "Dropped: onchain_morgan (promo), MrktMovingStats / PerspicillumRes (bots), theblackmanda (teaser only), GiraffeNoExist, PredictIt/Kalshi (news/low-signal).",
+        "variant": "caption"
+      }
+    },
+    "notes-line-4": {
+      "type": "Text",
+      "props": {
+        "text": "source-status: xai=ok (6h call http=200 empty; 12h topic call http=200 returned 8; tracked-accounts call http=200 returned 6), memory=0, websearch=skip",
+        "variant": "caption"
+      }
+    }
+  }
+}

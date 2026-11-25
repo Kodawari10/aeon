@@ -1,29 +1,22 @@
-*Reply Maker — 2026-11-25* (REPLY_MAKER_DEGRADED: 4 of 5)
+*Reply Maker — 2026-11-25* (REPLY_MAKER_DEGRADED: 3 of 5)
 
-*1.* https://x.com/swap_ox/status/2125556581702185407  (@swap_ox, ~7m ago, 1💬)
-> $2.84M to win about $2,850. That's one Polymarket account's bet on Jensen Huang…
-why: NVIDIA-CEO market resolved "Yes" via a rule note; live dispute, absurd sizing on both sides, almost no replies yet
-A: Look at the other side: jsdk3k21k paid ~$2,070 for 2.07M No shares at 0.1¢. A 1000x bet that the twice-disputed Yes gets overturned. And 033033033's $2,850 on $2.84M is just resolution-risk yield. Neither side is pricing Huang, both are pricing the dispute process.
-B: "Is Huang his own successor?" misses the point. The rule note changed what Yes means after the market opened, and the price went 15% to 99% on a rules edit. That's not price discovery, it's a governance event. Resolution rules should be locked at listing.
+*1.* https://x.com/shayne_coplan/status/2125653367640805799  (@shayne_coplan, ~2h35m ago, 195💬, 2.1k❤)
+> Compute markets are finally here. @Polymarket now prices on-demand compute for H100s, B200s, B300s…
+why: Polymarket CEO launching GPU-rental-price markets; huge visibility, room for a numbers-based take
+A: Curve is already readable: H100 $3.16/hr now, $1.98 by end-2028; B200 $9.07 to $5.83. That's roughly 35% rental deflation priced in, the number every GPU-backed loan on a 5-6yr depreciation schedule needs to survive. Depth past mid-2027 is the open question.
+B: Calling it a yield curve oversells it. A curve needs depth at every tenor, and contracts past mid-2027 reportedly hold $11-58k each. That's a signal, not a hedge. No lender hedges a billion-dollar GPU loan against a $30k market.
 
-*2.* https://x.com/shaynicrypto/status/2125555143085113357  (@shaynicrypto, ~12m ago, 0💬)
-> GTA VI was already out. This wallet made $27.8K trading one song, buying both YES and NO…
-why: onchain wallet breakdown (MERGE txs); direct privacy angle on public wallet activity
-A: The merge detail is the useful bit: 11 MERGE txs pulled ~$21.4K out before settlement, so the edge was pair cost under $1, not the outcome. Worth noting any trader can reconstruct soonand's whole entry-merge-exit sequence from one public address.
-B: You wouldn't call it spread arb, but copiers will treat it as one. The real cost: soonand's full playbook is readable from one address. A profitable pattern with a public activity feed gets front-run by the next wallet. Transparency taxes the people who find edge.
+*2.* https://x.com/malekanoms/status/2125570990558089631  (@malekanoms, ~8h ago, 18💬, 147❤)
+> I'm afraid I have to agree… prediction markets in their current form have flipped to a net negative for society…
+why: Sharp anti-PM take from a 20-year PM user; the thread is still small, so a substantive reply gets seen
+A: The fee schedule leans the same way. Polymarket US taker fee is 0.0695*p*(1-p): 5.6% of stake on a 20c contract vs 4.2% at 40c. The lottery-ticket end of the book pays the most, while the pitch is hedging and information.
+B: "Net negative" lumps two products under one ticker. Fed-path and election contracts, and now Polymarket's GPU price curves, are hedging tools. Minute-scale sports and crypto contracts are casinos. Regulate the second, don't write off the first.
 
-*3.* https://x.com/KyleDeWriter/status/2125545725039669260  (@KyleDeWriter, ~50m ago, 8💬, 26 likes)
-> Many people are afraid of going through KYC on Polymarket…
-why: traction already (26 likes), a real claim about flag/KYC triggers and workarounds
-A: Useful list. One addition: the flags you describe (geo changes, fast $10K+ flows, Chainalysis monitoring) come from behavior analysis, so an account can get flagged without wrongdoing. Close-only withdrawal is a safety net, not a fix.
-B: "Not a big deal" undersells it. Withdraw-only is a lower bar than being able to trade, and "just make a new account" is the opposite of what the flag is for. The real issue is how much behavioral surveillance sits behind a flag.
+*3.* https://x.com/_Chain_Duck_/status/2125690668475388092  (@_Chain_Duck_, ~8m ago, 1💬)
+> Polymarket US: 70% of API taker fees back. Where does the $16.68 come from? fee = 0.0695 × contracts × p × (1−p)…
+why: fresh fee-structure breakdown, almost no replies yet; the math is checkable
+A: Math checks: 1,000 @ 40c = $16.68, 4.2% of the $400 stake; 20c = 5.6%, 10c = 6.3%. Dollar fee peaks at 50c, but fee as % of stake peaks at the longshots. After the 70% rebate: ~1.3% / 1.7% / 1.9%.
+B: "70% back" as posted only covers API takers on straight trades, through Dec 31. That's a bot and market-maker subsidy. A UI trader still pays the full 4-6% of stake on a 20-40c contract, and it expires Dec 31.
 
-*4.* https://x.com/VoidReader_/status/2125539844298334293  (@VoidReader_, ~1h ago, 2💬)
-> 16 FRESH WALLETS BET ON JENSEN AT 1.5¢. THEY WALKED AWAY WITH $350K…
-why: wallet-cluster insider question with concrete numbers, few replies
-A: Funding-to-first-bet in ~6 minutes across 11 wallets is the cluster signal. Next check: do the Nov 16 five and the Monday eleven share a funding source? A shared source turns "lucky" into one operator, which is a different story than 16 coincidences.
-B: "Insider or lucky" skips a third option: one operator splitting size across 16 fresh wallets. That's what you do when you know single-address size gets watched. Public wallet data doesn't stop insiders, it just selects for the careless ones.
-
-Dropped by skip gate: @popmemecoin and @caihawk_signals (Raskin/Polymarket subpoena headline reposts, no angle), @PolySightRH (tool promo), @BarnabusBull (bot promo with ref link), @cryptowithgopal (thin NY Kalshi recap), @JustHere4the1A (outrage, no specifics), @0xkakaa (unverified anecdote), @YJJKNN (bot promo).
-
-source-status: xai=ok (12h call http=000 timeout; two minimal 6-post calls http=200), memory=0, websearch=skip
+notes: #1 figures come from @bbelux's read of the Polymarket compute markets (Ornn indices), not verified independently. #2 is outside the 6h window (12h fallback). Dropped: onchain_morgan (promo), MrktMovingStats / PerspicillumRes (bots), theblackmanda (teaser only), GiraffeNoExist, PredictIt/Kalshi (news/low-signal).
+source-status: xai=ok (6h call http=200 empty; 12h topic call http=200 returned 8; tracked-accounts call http=200 returned 6), memory=0, websearch=skip
