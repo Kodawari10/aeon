@@ -1,0 +1,243 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health",
+        "description": "2026-11-25"
+      },
+      "children": [
+        "overall-status",
+        "sep-1",
+        "degraded-section",
+        "sep-2",
+        "healthy-section",
+        "sep-3",
+        "summary-stats"
+      ]
+    },
+    "overall-status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "HEALTH: DEGRADED(1)",
+        "message": "1 skill has quality or reliability issues"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "degraded-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "degraded-heading",
+        "reply-maker-stack"
+      ]
+    },
+    "degraded-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 DEGRADED",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "reply-maker-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply-maker-title",
+        "reply-maker-success",
+        "reply-maker-quality",
+        "reply-maker-issue",
+        "reply-maker-status"
+      ]
+    },
+    "reply-maker-title": {
+      "type": "Text",
+      "props": {
+        "text": "reply-maker",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "reply-maker-success": {
+      "type": "Text",
+      "props": {
+        "text": "Runs: 100% success",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "reply-maker-quality": {
+      "type": "Text",
+      "props": {
+        "text": "Quality average: 2 over 5 runs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "reply-maker-issue": {
+      "type": "Text",
+      "props": {
+        "text": "xAI 12h call timed out again; 4 of 12 candidates survived",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "reply-maker-status": {
+      "type": "Badge",
+      "props": {
+        "text": "WAIT-API (timeout) → ISS-001",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "healthy-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "healthy-heading",
+        "skills-grid"
+      ]
+    },
+    "healthy-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 HEALTHY: 7",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "skills-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "skill-heartbeat",
+        "skill-digest",
+        "skill-monitor-polymarket",
+        "skill-memory-flush",
+        "skill-mention-radar",
+        "skill-pm-manipulation",
+        "skill-health"
+      ]
+    },
+    "skill-heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "skill-digest": {
+      "type": "Badge",
+      "props": {
+        "text": "digest",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "skill-monitor-polymarket": {
+      "type": "Badge",
+      "props": {
+        "text": "monitor-polymarket",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "skill-memory-flush": {
+      "type": "Badge",
+      "props": {
+        "text": "memory-flush",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "skill-mention-radar": {
+      "type": "Badge",
+      "props": {
+        "text": "mention-radar",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "skill-pm-manipulation": {
+      "type": "Badge",
+      "props": {
+        "text": "pm-manipulation",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "skill-health": {
+      "type": "Badge",
+      "props": {
+        "text": "skill-health",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "summary-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-open-issues",
+        "stat-resolved"
+      ]
+    },
+    "stat-open-issues": {
+      "type": "Stat",
+      "props": {
+        "label": "Open Issues",
+        "value": "1"
+      },
+      "children": []
+    },
+    "stat-resolved": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved This Run",
+        "value": "0"
+      },
+      "children": []
+    }
+  }
+}

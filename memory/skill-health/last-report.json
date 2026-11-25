@@ -1,13 +1,13 @@
 {
-  "hash": "0fb42e0589109b38874abeace52c2c9b8fbc1e190f4d9f766e917e35cf248cb",
-  "last_notified_at": "2026-11-24T18:44:00Z",
-  "last_run_at": "2026-11-24T18:44:00Z",
+  "hash": "1add36e5aebef75503377aa87fc7659dd048518f97eb9c5c7f13d3779b2e4626",
+  "last_notified_at": "2026-11-25T20:42:30Z",
+  "last_run_at": "2026-11-25T20:42:30Z",
   "classification": {
     "critical": [],
-    "degraded": ["reply-maker (quality avg 2 over 3 runs, xAI timeouts) -> ISS-001"],
+    "degraded": ["reply-maker (quality avg 2 over 5 runs, xAI timeouts) -> ISS-001"],
     "flapping": [],
     "warning": [],
     "healthy_count": 7,
-    "no_data": ["mention-radar (first run in progress)"]
+    "no_data": []
   }
 }

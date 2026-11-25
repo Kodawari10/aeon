@@ -1,10 +1,9 @@
-*Skill Health — 2026-11-24*
+*Skill Health — 2026-11-25*
 HEALTH: DEGRADED(1)
 
 🟡 DEGRADED
-- reply-maker — quality avg 2 over 3 runs (threshold 2.5); xAI search timeouts (http=000) shrink candidates, ~80% rejected — INVESTIGATE → ISS-001
+- reply-maker — runs 100% success but quality avg 2 over 5 runs (xAI 12h call timed out again; 4 of 12 candidates survived) — WAIT-API (timeout) → ISS-001
 
-⚪ NO DATA (1): mention-radar — first run in progress
-🟢 HEALTHY: 7 · 0 failures in 7d (18 runs, 6 in progress)
+🟢 HEALTHY: 7 (heartbeat, digest, monitor-polymarket, memory-flush, mention-radar, pm-manipulation, skill-health)
 
 Open issues: 1 · Resolved this run: 0
