@@ -1,0 +1,107 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Prediction Markets",
+        "description": "2026-11-25"
+      },
+      "children": [
+        "alert-empty",
+        "text-instructions",
+        "sep1",
+        "heading-kalshi",
+        "text-kalshi-note",
+        "market-table",
+        "sep2",
+        "text-no-alerts"
+      ]
+    },
+    "alert-empty": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Both watchlists are empty, so nothing was tracked."
+      }
+    },
+    "text-instructions": {
+      "type": "Text",
+      "props": {
+        "text": "Add slugs/tickers to skills/monitor-polymarket/watchlist-polymarket.md and watchlist-kalshi.md (OffMarket-relevant Polymarket events are a natural start).",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-kalshi": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi Trending",
+        "level": "h2"
+      }
+    },
+    "text-kalshi-note": {
+      "type": "Text",
+      "props": {
+        "text": "This run only; price vs prior close, no candlesticks/orderbook",
+        "variant": "caption"
+      }
+    },
+    "market-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "Price Movement",
+          "Details",
+          "Code"
+        ],
+        "rows": [
+          [
+            "P vs NP resolved before 2027",
+            "12% to 19%",
+            "~41k contracts, bid/ask 12/15",
+            "KXPNP-32"
+          ],
+          [
+            "Whittingham leaves Michigan: before Feb 1",
+            "80% to 47%",
+            "books are wide (33/44, 11/81), so treat as thin",
+            "KXNCAAFCOACHLEAVE-26KWHI"
+          ],
+          [
+            "AGI by a company before 2027",
+            "4% to 2%",
+            "—",
+            "KXAGICO-COMP"
+          ],
+          [
+            "Next Speaker, Jeffries at 99%",
+            "Unchanged",
+            "—",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-no-alerts": {
+      "type": "Text",
+      "props": {
+        "text": "No hard alerts (>5pp on a non-thin book).",
+        "variant": "body"
+      }
+    }
+  }
+}

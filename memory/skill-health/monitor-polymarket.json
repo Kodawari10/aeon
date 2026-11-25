@@ -1,10 +1,12 @@
 {
   "skill": "monitor-polymarket",
-  "last_analyzed": "2026-11-24T18:43:43Z",
-  "quality_score": 4,
-  "assessment": "Good - correctly diagnosed empty watchlist configuration, provided clear remediation steps, and included Kalshi market discovery insights; legitimate no-op handled substantively with actionable guidance.",
-  "flags": [],
-  "avg_score": 3.2,
+  "last_analyzed": "2026-11-25T11:48:52Z",
+  "quality_score": 2,
+  "assessment": "Output ran without errors and shows market structure understanding, but specific prices/figures cannot be verified and watchlists are empty—limiting core utility.",
+  "flags": [
+    "unverifiable_claim"
+  ],
+  "avg_score": 3,
   "history": [
     {
       "date": "2026-08-25",
@@ -25,6 +27,10 @@
     {
       "date": "2026-11-24",
       "score": 4
+    },
+    {
+      "date": "2026-11-25",
+      "score": 2
     }
   ]
 }
