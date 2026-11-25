@@ -1,7 +1,7 @@
 {
   "heartbeat": {
-    "last_dispatch": "2026-11-24T18:42:41Z",
-    "last_status": "success",
+    "last_dispatch": "2026-11-25T11:47:18Z",
+    "last_status": "dispatched",
     "last_success": "2026-11-24T18:43:59Z",
     "total_runs": 3,
     "total_successes": 3,
@@ -10,7 +10,7 @@
     "success_rate": 1
   },
   "monitor-polymarket": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-11-24T18:44:03Z",
     "total_runs": 5,
     "total_successes": 5,
@@ -18,10 +18,10 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 4,
-    "last_dispatch": "2026-11-24T18:42:41Z"
+    "last_dispatch": "2026-11-25T11:47:18Z"
   },
   "reply-maker": {
-    "last_status": "success",
+    "last_status": "dispatched",
     "last_success": "2026-11-24T18:51:33Z",
     "total_runs": 4,
     "total_successes": 4,
@@ -29,7 +29,7 @@
     "consecutive_failures": 0,
     "success_rate": 1,
     "last_quality_score": 2,
-    "last_dispatch": "2026-11-24T18:42:41Z"
+    "last_dispatch": "2026-11-25T11:47:18Z"
   },
   "skill-health": {
     "last_dispatch": "2026-11-24T18:42:41Z",
@@ -52,8 +52,8 @@
     "success_rate": 1
   },
   "digest": {
-    "last_dispatch": "2026-11-24T18:42:41Z",
-    "last_status": "success",
+    "last_dispatch": "2026-11-25T11:47:18Z",
+    "last_status": "dispatched",
     "last_success": "2026-11-24T18:46:38Z",
     "total_runs": 2,
     "total_successes": 2,
