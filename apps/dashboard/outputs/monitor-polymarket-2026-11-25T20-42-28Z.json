@@ -1,0 +1,156 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⚠️ Prediction markets: watchlists empty"
+      },
+      "children": [
+        "alert-empty",
+        "separator-1",
+        "instructions-section",
+        "separator-2",
+        "kalshi-section",
+        "separator-3",
+        "recommendation"
+      ]
+    },
+    "alert-empty": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "No watchlists configured",
+        "message": "monitor-polymarket ran with nothing to track. Both watchlists (skills/monitor-polymarket/watchlist-polymarket.md, watchlist-kalshi.md) are empty, so no moves were measured."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "instructions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "instructions-heading",
+        "instructions-text"
+      ]
+    },
+    "instructions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "To enable monitoring",
+        "level": "h3"
+      }
+    },
+    "instructions-text": {
+      "type": "Text",
+      "props": {
+        "text": "Add one Polymarket event slug or Kalshi event ticker per line to the respective watchlist files, or run with var polymarket:<slug> / kalshi:<ticker>."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kalshi-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "kalshi-heading",
+        "kalshi-note",
+        "kalshi-top-heading",
+        "kalshi-table"
+      ]
+    },
+    "kalshi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi market insights",
+        "level": "h3"
+      }
+    },
+    "kalshi-note": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi's open-events feed (first 200 events) is dominated by long-dated novelty markets, which aren't useful as a default watchlist.",
+        "variant": "muted"
+      }
+    },
+    "kalshi-top-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by 24h volume",
+        "level": "h4"
+      }
+    },
+    "kalshi-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Ticker",
+          "Description",
+          "24h Volume"
+        ],
+        "rows": [
+          [
+            "KXPNP-32",
+            "P vs NP resolution",
+            "~72k contracts"
+          ],
+          [
+            "KXNEXTSPEAKER-31",
+            "Next Speaker",
+            "~9.8k"
+          ],
+          [
+            "KXAGICO-COMP",
+            "AGI timing",
+            "~5.7k"
+          ]
+        ]
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendation": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "rec-heading",
+        "rec-text"
+      ]
+    },
+    "rec-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendation",
+        "level": "h3"
+      }
+    },
+    "rec-text": {
+      "type": "Text",
+      "props": {
+        "text": "For OffMarket relevance, add liquid Polymarket politics/crypto events."
+      }
+    }
+  }
+}

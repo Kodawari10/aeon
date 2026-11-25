@@ -1,12 +1,5 @@
-ℹ️ Prediction markets: watchlists empty
+⚠️ Prediction markets: watchlists empty
 
-**Prediction markets, 2026-11-25**
-Both watchlists are empty, so nothing was tracked. Add slugs/tickers to skills/monitor-polymarket/watchlist-polymarket.md and watchlist-kalshi.md (OffMarket-relevant Polymarket events are a natural start).
+monitor-polymarket ran with nothing to track. Both watchlists (`skills/monitor-polymarket/watchlist-polymarket.md`, `watchlist-kalshi.md`) are empty, so no moves were measured. To enable: add one Polymarket event slug or Kalshi event ticker per line, or run with var `polymarket:<slug>` / `kalshi:<ticker>`.
 
-**Kalshi trending (this run only; price vs prior close, no candlesticks/orderbook)**
-- P vs NP resolved before 2027: 12% to 19% on ~41k contracts, bid/ask 12/15 (KXPNP-32)
-- Whittingham leaves Michigan: before Feb 1 80% to 47%, but books are wide (33/44, 11/81), so treat as thin (KXNCAAFCOACHLEAVE-26KWHI)
-- AGI by a company before 2027: 4% to 2% (KXAGICO-COMP)
-- Next Speaker, Jeffries at 99%: unchanged
-
-No hard alerts (>5pp on a non-thin book).
+Kalshi's open-events feed (first 200 events) is dominated by long-dated novelty markets, which aren't useful as a default watchlist. Top by 24h volume: KXPNP-32 (P vs NP resolution, ~72k contracts), KXNEXTSPEAKER-31 (next Speaker, ~9.8k), KXAGICO-COMP (AGI timing, ~5.7k). For OffMarket relevance, add liquid Polymarket politics/crypto events.
