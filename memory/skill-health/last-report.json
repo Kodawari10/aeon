@@ -1,13 +1,13 @@
 {
   "hash": "1add36e5aebef75503377aa87fc7659dd048518f97eb9c5c7f13d3779b2e4626",
-  "last_notified_at": "2026-11-25T20:42:30Z",
-  "last_run_at": "2026-11-25T20:42:30Z",
+  "last_notified_at": "2026-11-26T21:45:00Z",
+  "last_run_at": "2026-11-26T21:45:00Z",
   "classification": {
     "critical": [],
-    "degraded": ["reply-maker (quality avg 2 over 5 runs, xAI timeouts) -> ISS-001"],
+    "degraded": ["reply-maker (quality avg 2.14 over 7 runs; xAI timeouts + empty first x_search) -> ISS-001"],
     "flapping": [],
-    "warning": [],
-    "healthy_count": 7,
+    "warning": ["monitor-polymarket (quality avg 2.88, unverifiable_claim flag)"],
+    "healthy_count": 6,
     "no_data": []
   }
 }

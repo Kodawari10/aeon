@@ -1,0 +1,197 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "⚠️ Skill Health — 2026-11-26",
+        "description": "HEALTH: DEGRADED(1)"
+      },
+      "children": [
+        "alert-status",
+        "sep1",
+        "section-degraded",
+        "sep2",
+        "section-warning",
+        "sep3",
+        "section-healthy",
+        "sep4",
+        "section-summary"
+      ]
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Overall health status is DEGRADED with 1 skill affected"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-degraded": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-degraded",
+        "text-degraded"
+      ]
+    },
+    "heading-degraded": {
+      "type": "Heading",
+      "props": {
+        "text": "🟡 DEGRADED",
+        "level": "h3"
+      }
+    },
+    "text-degraded": {
+      "type": "Text",
+      "props": {
+        "text": "reply-maker — 100% run success, but quality avg 2.14 over 7 runs (2 on 6 of 7). Today: xAI http=200, yet first x_search came back empty (model read the explicit dates as future); retry without dates gave 10 candidates. INVESTIGATE → ISS-001 (updated)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-warning": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-warning",
+        "text-warning"
+      ]
+    },
+    "heading-warning": {
+      "type": "Heading",
+      "props": {
+        "text": "⚪ WARNING (quality only)",
+        "level": "h3"
+      }
+    },
+    "text-warning": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-polymarket — avg 2.88, latest scored 2 with `unverifiable_claim` (Kalshi tickers/volumes look invented). Worth a spot-check against STRATEGY priority 1.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-healthy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-healthy",
+        "text-healthy"
+      ]
+    },
+    "heading-healthy": {
+      "type": "Heading",
+      "props": {
+        "text": "🟢 HEALTHY",
+        "level": "h3"
+      }
+    },
+    "text-healthy": {
+      "type": "Text",
+      "props": {
+        "text": "6 skills: heartbeat, digest, mention-radar, memory-flush, pm-manipulation, skill-health",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-summary",
+        "stats-grid",
+        "text-issues"
+      ]
+    },
+    "heading-summary": {
+      "type": "Heading",
+      "props": {
+        "text": "7-Day Summary",
+        "level": "h3"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat-total",
+        "stat-succeeded",
+        "stat-failed",
+        "stat-in-progress"
+      ]
+    },
+    "stat-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total runs",
+        "value": "35"
+      }
+    },
+    "stat-succeeded": {
+      "type": "Stat",
+      "props": {
+        "label": "Succeeded",
+        "value": "32"
+      }
+    },
+    "stat-failed": {
+      "type": "Stat",
+      "props": {
+        "label": "Failed",
+        "value": "0"
+      }
+    },
+    "stat-in-progress": {
+      "type": "Stat",
+      "props": {
+        "label": "In progress",
+        "value": "3"
+      }
+    },
+    "text-issues": {
+      "type": "Text",
+      "props": {
+        "text": "Open issues: 1 · Resolved this run: 0",
+        "variant": "caption"
+      }
+    }
+  }
+}
