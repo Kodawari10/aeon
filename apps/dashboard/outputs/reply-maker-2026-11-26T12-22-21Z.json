@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "reply-maker",
+        "description": "Want to refine these replies? Reply with a change and I'll revise them."
+      },
+      "children": [
+        "badge_revise"
+      ]
+    },
+    "badge_revise": {
+      "type": "Badge",
+      "props": {
+        "text": "revise",
+        "variant": "secondary"
+      }
+    }
+  }
+}
