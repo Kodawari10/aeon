@@ -1,0 +1,243 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Starknet digest"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-date",
+        "text-tldr",
+        "separator-1",
+        "item-1",
+        "separator-2",
+        "item-2",
+        "separator-3",
+        "item-3",
+        "separator-4",
+        "also-section"
+      ]
+    },
+    "text-date": {
+      "type": "Text",
+      "props": {
+        "text": "Starknet — 2026-11-26",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-tldr": {
+      "type": "Text",
+      "props": {
+        "text": "TL;DR: Quiet day; the signal is builder tooling for STRK20 privacy (wallet registration in starknet.js, an AI app builder in private beta) plus Endur's two-year staking numbers.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1-title",
+        "item-1-desc",
+        "item-1-why",
+        "item-1-link"
+      ]
+    },
+    "item-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "starknet.js v11.7 prerelease adds STRK20 wallet registration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The prerelease supports Wallet API 0.10.5, letting a supporting wallet register a Cairo account in the STRK20 privacy pool. The register action must be the only action in its request."
+      },
+      "children": []
+    },
+    "item-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: dApps can now onboard users into shielded balances through the wallet flow instead of custom plumbing."
+      },
+      "children": []
+    },
+    "item-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/CairoLang/status/2125560153026257222",
+        "href": "https://x.com/CairoLang/status/2125560153026257222"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-2-title",
+        "item-2-desc",
+        "item-2-why",
+        "item-2-link"
+      ]
+    },
+    "item-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Starknet.Build opens a waitlist for its AI app builder",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Describe an app in plain language and it writes the contracts, builds the frontend, runs tests, and deploys to Starknet. It is in private beta, with no public launch date on the site, and is built on the privacy features (STRK20, shielded transfers)."
+      },
+      "children": []
+    },
+    "item-2-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: a no-Cairo path to shipping privacy apps; join the waitlist if you want early access."
+      },
+      "children": []
+    },
+    "item-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/LoLoCoding/status/2125586043193655552",
+        "href": "https://x.com/LoLoCoding/status/2125586043193655552"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-3-title",
+        "item-3-desc",
+        "item-3-why",
+        "item-3-link"
+      ]
+    },
+    "item-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Endur turns 2: 140M+ STRK and 40+ BTC staked",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The liquid staking protocol reports five Bitcoin flavours (including strkBTC for private BTC staking) and integrations with Vesu, Ekubo, Troves, and Opus. Figures are self-reported."
+      },
+      "children": []
+    },
+    "item-3-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: strkBTC is now a live staking asset with DeFi integrations, not only a roadmap item."
+      },
+      "children": []
+    },
+    "item-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/endurfi/status/2125916418327879881",
+        "href": "https://x.com/endurfi/status/2125916418327879881"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "also-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "also-heading",
+        "also-cairo",
+        "also-other"
+      ]
+    },
+    "also-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "also-cairo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Cairo 2.21 rejects const comparisons ignoring custom PartialEq impl",
+        "href": "https://github.com/starkware-libs/cairo/pull/10395",
+        "source": "Cairo"
+      },
+      "children": []
+    },
+    "also-other": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet news day; Upbit listing, Falcon-512, Xverse multisig and unlock cadence were covered earlier this week and skipped."
+      },
+      "children": []
+    }
+  }
+}

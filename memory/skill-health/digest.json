@@ -1,10 +1,10 @@
 {
   "skill": "digest",
-  "last_analyzed": "2026-11-25T11:50:45Z",
+  "last_analyzed": "2026-11-26T12:19:51Z",
   "quality_score": 4,
-  "assessment": "Substantive Starknet digest with specific figures, verifiable links, and appropriate uncertainty flagging. Well-edited to avoid duplicates.",
+  "assessment": "Substantive digest with cited sources, clear structure, and editorial judgment; shows real research with specific tweet IDs, technical details, and transparent data limitations.",
   "flags": [],
-  "avg_score": 3.67,
+  "avg_score": 3.75,
   "history": [
     {
       "date": "2026-11-23",
@@ -16,6 +16,10 @@
     },
     {
       "date": "2026-11-25",
+      "score": 4
+    },
+    {
+      "date": "2026-11-26",
       "score": 4
     }
   ]
