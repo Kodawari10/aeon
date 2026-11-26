@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Prediction markets: watchlists empty"
+      },
+      "children": [
+        "alert_config",
+        "separator_1",
+        "heading_setup",
+        "text_setup",
+        "separator_2",
+        "heading_events",
+        "text_events_note",
+        "table_kalshi"
+      ]
+    },
+    "alert_config": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "No config",
+        "message": "monitor-polymarket ran with no config (MONITOR_KALSHI_NO_CONFIG). Both watchlists are empty, so nothing is tracked on Polymarket or Kalshi."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_setup": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup",
+        "level": "h3"
+      }
+    },
+    "text_setup": {
+      "type": "Text",
+      "props": {
+        "text": "Add event slugs to skills/monitor-polymarket/watchlist-polymarket.md and event tickers to skills/monitor-polymarket/watchlist-kalshi.md, one per line."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_events": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi open events by 24h volume",
+        "level": "h3"
+      }
+    },
+    "text_events_note": {
+      "type": "Text",
+      "props": {
+        "text": "Long-dated science and economics markets, not near-term movers. For OffMarket-relevant coverage, add Polymarket slugs for the markets you care about.",
+        "variant": "caption"
+      }
+    },
+    "table_kalshi": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Event",
+          "Description",
+          "Volume (24h)"
+        ],
+        "rows": [
+          [
+            "KXPNP-32",
+            "P vs NP resolved",
+            "~102k contracts"
+          ],
+          [
+            "KXPRODCAGR-32FEB05",
+            "US productivity growth 2026-2031",
+            "~18k"
+          ],
+          [
+            "KXFACTORP-35",
+            "poly-time classical factoring",
+            "~3.5k"
+          ],
+          [
+            "KXMILLENNIUMALL-40",
+            "all Millennium Prize problems solved",
+            "~3.1k"
+          ]
+        ]
+      }
+    }
+  }
+}

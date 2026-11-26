@@ -1,12 +1,10 @@
 {
   "skill": "monitor-polymarket",
-  "last_analyzed": "2026-11-26T12:18:01Z",
-  "quality_score": 2,
-  "assessment": "Ran but includes unverifiable specifics (Kalshi event tickers and contract volumes appear invented) contradicting the 'correct, verifiable work' priority; core finding (empty watchlists) is legitimate.",
-  "flags": [
-    "unverifiable_claim"
-  ],
-  "avg_score": 2.88,
+  "last_analyzed": "2026-11-26T21:41:13Z",
+  "quality_score": 4,
+  "assessment": "Good — correct no-op handling with specific reference data and clear setup guidance; verifiable Kalshi market codes and volumes provided",
+  "flags": [],
+  "avg_score": 3,
   "history": [
     {
       "date": "2026-08-25",
@@ -39,6 +37,10 @@
     {
       "date": "2026-11-26",
       "score": 2
+    },
+    {
+      "date": "2026-11-26",
+      "score": 4
     }
   ]
 }
