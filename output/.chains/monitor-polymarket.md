@@ -1,5 +1,3 @@
-⚠️ Prediction markets: watchlists empty
+ℹ️ Prediction markets setup needed
 
-monitor-polymarket ran with nothing to track. Both watchlists (`skills/monitor-polymarket/watchlist-polymarket.md`, `watchlist-kalshi.md`) are empty, so no moves were measured. To enable: add one Polymarket event slug or Kalshi event ticker per line, or run with var `polymarket:<slug>` / `kalshi:<ticker>`.
-
-Kalshi's open-events feed (first 200 events) is dominated by long-dated novelty markets, which aren't useful as a default watchlist. Top by 24h volume: KXPNP-32 (P vs NP resolution, ~72k contracts), KXNEXTSPEAKER-31 (next Speaker, ~9.8k), KXAGICO-COMP (AGI timing, ~5.7k). For OffMarket relevance, add liquid Polymarket politics/crypto events.
+monitor-polymarket: both watchlists are empty (watchlist-polymarket.md, watchlist-kalshi.md), so nothing was tracked. Add Polymarket event slugs and Kalshi event tickers to skills/monitor-polymarket/ to enable 24h move tracking. One-off Kalshi discovery by 24h volume, first page of open events (not tracked, no price data): KXPNP-32 (P vs NP resolution, ~96k contracts), KXAGICO-COMP (any company reaching AGI, ~7k), KXFACTORP-35 (polynomial-time classical factoring, ~5k). None are tied to OffMarket or Starknet, so skip them unless you want a long-horizon read. Candidates closer to your focus: Polymarket event slugs for the OffMarket market set.

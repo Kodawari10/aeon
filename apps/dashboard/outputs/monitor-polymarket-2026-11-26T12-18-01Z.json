@@ -1,0 +1,103 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Prediction markets setup needed"
+      },
+      "children": [
+        "alert-setup",
+        "sep1",
+        "instruction-text",
+        "sep2",
+        "kalshi-heading",
+        "kalshi-table",
+        "sep3",
+        "note-text",
+        "sep4",
+        "candidates-text"
+      ]
+    },
+    "alert-setup": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Watchlists are empty",
+        "message": "watchlist-polymarket.md and watchlist-kalshi.md are both empty, so nothing is being tracked."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "instruction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Add Polymarket event slugs and Kalshi event tickers to skills/monitor-polymarket/ to enable 24h move tracking.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "kalshi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Kalshi Discovery — 24h volume, first page of open events (not tracked, no price data)",
+        "level": "h3"
+      }
+    },
+    "kalshi-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Ticker",
+          "Description",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "KXPNP-32",
+            "P vs NP resolution",
+            "~96k contracts"
+          ],
+          [
+            "KXAGICO-COMP",
+            "any company reaching AGI",
+            "~7k"
+          ],
+          [
+            "KXFACTORP-35",
+            "polynomial-time classical factoring",
+            "~5k"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "note-text": {
+      "type": "Text",
+      "props": {
+        "text": "None are tied to OffMarket or Starknet, so skip them unless you want a long-horizon read.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "candidates-text": {
+      "type": "Text",
+      "props": {
+        "text": "Candidates closer to your focus: Polymarket event slugs for the OffMarket market set.",
+        "variant": "lead"
+      }
+    }
+  }
+}
