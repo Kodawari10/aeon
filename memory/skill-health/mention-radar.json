@@ -1,13 +1,17 @@
 {
   "skill": "mention-radar",
-  "last_analyzed": "2026-11-24T18:48:28Z",
+  "last_analyzed": "2026-11-26T12:22:42Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured report with specific posts (URLs, IDs, quotes), clear categorization, and actionable engagement opportunities tied to strategic value; operator can verify via links",
+  "assessment": "Substantive monitoring output with specific, contextual mentions; clear classifications (Friction, Confusion, Bear take); identified engagement opportunities tying both projects together. Well-structured and actionable. Transparent about API source and success (xai http=200).",
   "flags": [],
   "avg_score": 4,
   "history": [
     {
       "date": "2026-11-24",
+      "score": 4
+    },
+    {
+      "date": "2026-11-26",
       "score": 4
     }
   ]

@@ -1,0 +1,584 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Mention Radar",
+        "description": "OffMarket, Starknet — 2026-11-26"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-offmarket",
+        "sep-1",
+        "section-starknet",
+        "sep-2",
+        "section-opportunities",
+        "sep-3",
+        "section-summary"
+      ]
+    },
+    "section-offmarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-offmarket",
+        "tweet-offmarket-1",
+        "tweet-offmarket-2",
+        "tweet-offmarket-3",
+        "text-press"
+      ]
+    },
+    "heading-offmarket": {
+      "type": "Heading",
+      "props": {
+        "text": "OffMarket",
+        "level": "h2"
+      }
+    },
+    "tweet-offmarket-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-offmarket-1",
+        "card-offmarket-1",
+        "badge-offmarket-1",
+        "text-offmarket-1-context"
+      ]
+    },
+    "link-offmarket-1": {
+      "type": "Link",
+      "props": {
+        "label": "@tusar1687",
+        "href": "https://x.com/tusar1687/status/2123750342034903169"
+      }
+    },
+    "card-offmarket-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "tusar1687",
+        "handle": "tusar1687",
+        "text": "leaks everywhere, i need better privacy tools"
+      }
+    },
+    "badge-offmarket-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Friction / wish",
+        "variant": "secondary"
+      }
+    },
+    "text-offmarket-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "~13k followers | Nov 20, reply in OffMarket privacy thread",
+        "variant": "caption"
+      }
+    },
+    "tweet-offmarket-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-offmarket-2",
+        "card-offmarket-2",
+        "badge-offmarket-2",
+        "text-offmarket-2-context"
+      ]
+    },
+    "link-offmarket-2": {
+      "type": "Link",
+      "props": {
+        "label": "@Rezwan_hassan11",
+        "href": "https://x.com/Rezwan_hassan11/status/2123838802955526244"
+      }
+    },
+    "card-offmarket-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Rezwan_hassan11",
+        "handle": "Rezwan_hassan11",
+        "text": "do you really feel safer there"
+      }
+    },
+    "badge-offmarket-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion / skepticism",
+        "variant": "secondary"
+      }
+    },
+    "text-offmarket-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "~9k followers | Nov 20, same thread",
+        "variant": "caption"
+      }
+    },
+    "tweet-offmarket-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-offmarket-3",
+        "card-offmarket-3",
+        "badge-offmarket-3",
+        "text-offmarket-3-context"
+      ]
+    },
+    "link-offmarket-3": {
+      "type": "Link",
+      "props": {
+        "label": "@SefirotWatch",
+        "href": "https://x.com/SefirotWatch/status/2125494105018953870"
+      }
+    },
+    "card-offmarket-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "SefirotWatch",
+        "handle": "SefirotWatch",
+        "text": "🤔"
+      }
+    },
+    "badge-offmarket-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion (low signal)",
+        "variant": "outline"
+      }
+    },
+    "text-offmarket-3-context": {
+      "type": "Text",
+      "props": {
+        "text": "~2.6k followers | Nov 25, tagging @OffMarketcx",
+        "variant": "caption"
+      }
+    },
+    "text-press": {
+      "type": "Text",
+      "props": {
+        "text": "Press: no new coverage since Nov 24 (Prediction News / Crypto Briefing already reported)",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-starknet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-starknet",
+        "tweet-starknet-1",
+        "tweet-starknet-2",
+        "tweet-starknet-3",
+        "tweet-starknet-4",
+        "tweet-starknet-5",
+        "text-web"
+      ]
+    },
+    "heading-starknet": {
+      "type": "Heading",
+      "props": {
+        "text": "Starknet",
+        "level": "h2"
+      }
+    },
+    "tweet-starknet-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-starknet-1",
+        "card-starknet-1",
+        "badge-starknet-1",
+        "text-starknet-1-context"
+      ]
+    },
+    "link-starknet-1": {
+      "type": "Link",
+      "props": {
+        "label": "@ThebadGay6",
+        "href": "https://x.com/ThebadGay6/status/2125870810493505799"
+      }
+    },
+    "card-starknet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "ThebadGay6",
+        "handle": "ThebadGay6",
+        "text": "private staking on starknet is turning TVL into a smoke screen. if the pool balances are invisible, how can anyone trust the reported growth?"
+      }
+    },
+    "badge-starknet-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Confusion / trust",
+        "variant": "secondary"
+      }
+    },
+    "text-starknet-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "Nov 26",
+        "variant": "caption"
+      }
+    },
+    "tweet-starknet-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-starknet-2",
+        "card-starknet-2",
+        "badge-starknet-2",
+        "text-starknet-2-context"
+      ]
+    },
+    "link-starknet-2": {
+      "type": "Link",
+      "props": {
+        "label": "@YVG129",
+        "href": "https://x.com/YVG129/status/2125921293048439085"
+      }
+    },
+    "card-starknet-2": {
+      "type": "TweetCard",
+      "props": {
+        "author": "YVG129",
+        "handle": "YVG129",
+        "text": "What is Starknet counting on? ...failed to build a profitable business model, attract developers"
+      }
+    },
+    "badge-starknet-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear take",
+        "variant": "secondary"
+      }
+    },
+    "text-starknet-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "Nov 26, follow-up on the BTC/ETH-hack migration thesis",
+        "variant": "caption"
+      }
+    },
+    "tweet-starknet-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-starknet-3",
+        "card-starknet-3",
+        "badge-starknet-3",
+        "text-starknet-3-context"
+      ]
+    },
+    "link-starknet-3": {
+      "type": "Link",
+      "props": {
+        "label": "@mfardecrouz",
+        "href": "https://x.com/mfardecrouz/status/2125899373804748975"
+      }
+    },
+    "card-starknet-3": {
+      "type": "TweetCard",
+      "props": {
+        "author": "mfardecrouz",
+        "handle": "mfardecrouz",
+        "text": "2024 airdrop recap listing Starknet",
+        "likes": 30,
+        "retweets": 19
+      }
+    },
+    "badge-starknet-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Discovery (airdrop nostalgia)",
+        "variant": "secondary"
+      }
+    },
+    "text-starknet-3-context": {
+      "type": "Text",
+      "props": {
+        "text": "Nov 26",
+        "variant": "caption"
+      }
+    },
+    "tweet-starknet-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-starknet-4",
+        "card-starknet-4",
+        "badge-starknet-4",
+        "text-starknet-4-context"
+      ]
+    },
+    "link-starknet-4": {
+      "type": "Link",
+      "props": {
+        "label": "@HypedLaunches",
+        "href": "https://x.com/HypedLaunches/status/2125864630580904304"
+      }
+    },
+    "card-starknet-4": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HypedLaunches",
+        "handle": "HypedLaunches",
+        "text": "Starknet $1.43B in a market-cap comparison list",
+        "likes": 8
+      }
+    },
+    "badge-starknet-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Competitor comparison",
+        "variant": "outline"
+      }
+    },
+    "text-starknet-4-context": {
+      "type": "Text",
+      "props": {
+        "text": "Nov 26",
+        "variant": "caption"
+      }
+    },
+    "tweet-starknet-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-starknet-5",
+        "card-starknet-5",
+        "badge-starknet-5",
+        "text-starknet-5-context"
+      ]
+    },
+    "link-starknet-5": {
+      "type": "Link",
+      "props": {
+        "label": "@0x_zeeme",
+        "href": "https://x.com/0x_zeeme/status/2125872039986933928"
+      }
+    },
+    "card-starknet-5": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0x_zeeme",
+        "handle": "0x_zeeme",
+        "text": "tech-stack ranking, Starknet — Rust / Cairo",
+        "likes": 5
+      }
+    },
+    "badge-starknet-5": {
+      "type": "Badge",
+      "props": {
+        "text": "Comparison (low signal)",
+        "variant": "outline"
+      }
+    },
+    "text-starknet-5-context": {
+      "type": "Text",
+      "props": {
+        "text": "Nov 26",
+        "variant": "caption"
+      }
+    },
+    "text-web": {
+      "type": "Text",
+      "props": {
+        "text": "Web (Reddit/HN/Farcaster): nothing fresh; only a stale Farcaster zkLend thread.",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-opportunities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-opportunities",
+        "opp-1",
+        "opp-2",
+        "opp-3"
+      ]
+    },
+    "heading-opportunities": {
+      "type": "Heading",
+      "props": {
+        "text": "Engagement Opportunities",
+        "level": "h2"
+      }
+    },
+    "opp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-opp-1",
+        "text-opp-1"
+      ]
+    },
+    "link-opp-1": {
+      "type": "Link",
+      "props": {
+        "label": "ThebadGay6 (Starknet)",
+        "href": "https://x.com/ThebadGay6/status/2125870810493505799"
+      }
+    },
+    "text-opp-1": {
+      "type": "Text",
+      "props": {
+        "text": "The TVL-vs-private-staking question is the same trust problem OffMarket's privacy pool raises. A reply with a concrete answer (what is and isn't verifiable on private pools: proofs, aggregate supply, public contract state) adds substance and ties both focus areas together.",
+        "variant": "body"
+      }
+    },
+    "opp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-opp-2",
+        "text-opp-2"
+      ]
+    },
+    "link-opp-2": {
+      "type": "Link",
+      "props": {
+        "label": "tusar1687 + Rezwan_hassan11 (OffMarket)",
+        "href": "https://x.com/tusar1687/status/2123750342034903169"
+      }
+    },
+    "text-opp-2": {
+      "type": "Text",
+      "props": {
+        "text": "Two mid-size accounts doubting privacy in one thread. An honest reply on what OffMarket does hide (account-to-position link) and what it can't (size/timing correlation, per its own docs) beats defensive promo.",
+        "variant": "body"
+      }
+    },
+    "opp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-opp-3",
+        "text-opp-3"
+      ]
+    },
+    "link-opp-3": {
+      "type": "Link",
+      "props": {
+        "label": "YVG129 (Starknet)",
+        "href": "https://x.com/YVG129/status/2125921293048439085"
+      }
+    },
+    "text-opp-3": {
+      "type": "Text",
+      "props": {
+        "text": "Watch only. Zero engagement; low-value to feed.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-summary",
+        "text-quiet",
+        "text-github",
+        "text-datasource"
+      ]
+    },
+    "heading-summary": {
+      "type": "Heading",
+      "props": {
+        "text": "Summary",
+        "level": "h2"
+      }
+    },
+    "text-quiet": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet: none",
+        "variant": "body"
+      }
+    },
+    "text-github": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub: no repos known for either target, so no star deltas",
+        "variant": "body"
+      }
+    },
+    "text-datasource": {
+      "type": "Text",
+      "props": {
+        "text": "Data source: X API (xai http=200 both targets)",
+        "variant": "muted"
+      }
+    }
+  }
+}
