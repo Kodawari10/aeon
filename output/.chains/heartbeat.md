@@ -1,15 +1,12 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+HEARTBEAT_OK · STATUS_PAGE=OK. Nothing needs attention, so I sent no notification.
 
-The fleet is healthy, so I sent no notification.
-
-- **Failed or stuck skills:** none. All 8 skills that have run are at 100% success with 0 consecutive failures. Heartbeat's own last success was 2026-11-24, so the self-check passes.
-- **PRs and issues:** 0 open PRs and 0 urgent issues.
-- **Memory:** nothing new is flagged. The only open tracked issue is ISS-001 (reply-maker quality, medium severity), which was already reported on 2026-11-24.
-- **Scheduled skills:** mention-radar now has a cron-state entry (it was missing before), so the earlier watch item is resolved. No enabled skill is overdue.
-
-I regenerated `docs/status.md` with an overall status of 🟢 OK and 1 open issue. The next scheduled run is monitor-polymarket at 15:00 UTC. I left out the token pulse section because there is no `token-report-*.md` file.
+- **P0 (failed or stuck skills):** none. All 8 skills that have run are at 100% success with 0 consecutive failures. Heartbeat's own last success was 2026-11-25, so the self-check passes.
+- **P1 (PRs and issues):** 0 open PRs and 0 urgent issues.
+- **P2 (flagged memory items):** only ISS-001, reply-maker's low quality from xAI search timeouts. It's medium severity and was already reported on 2026-11-25.
+- **P3 (missing skills):** none. `article`, `skill-repair` and `write-tweet` have never run, but they are on-demand or reactive, not scheduled.
+- **Token pulse:** there are no `token-report-*.md` files, so I left that section off the status page.
 
 ## Summary
-- Modified `docs/status.md`: overall status 🟢 OK, updated timestamp, skill health table, ISS-001 in the open issues table.
-- Appended a `### heartbeat` entry (`mode: ambient`) to `memory/logs/2026-11-25.md`.
-- Follow-up: keep watching reply-maker quality (ISS-001). Article, skill-repair and write-tweet have not run yet, which is expected because they are on-demand or reactive.
+- Rewrote `docs/status.md` with an Overall of 🟢 OK, updated 2026-11-26 12:17 UTC, 1 open issue, and next run monitor-polymarket at 15:00 UTC.
+- Appended a `### heartbeat` entry (`mode: ambient`) to `memory/logs/2026-11-26.md`.
+- No follow-up is needed. ISS-001 stays open under skill-health.
