@@ -1,6 +1,12 @@
-Memory flush is done. I scanned `memory/logs/2026-11-24.md` and updated `memory/MEMORY.md` with two changes to Next Priorities:
+Memory flush finished for 2026-11-26. I scanned the 2026-11-25 log, which was the only file in the window.
 
-- **reply-maker:** I edited the existing priority line in place. Quality averaged 2 over 3 runs, and ISS-001 is open.
-- **mention-radar:** I added a priority for its first run on 2026-11-24, when OffMarket was quiet and Starknet had 6 mentions. It still has no cron-state entry, which heartbeat flagged as a P3.
+- **Promoted:** I updated the reply-maker priority in `memory/MEMORY.md`. It now says 5 runs, ISS-001 still open, and notifications ending in a degraded state because of xAI timeouts.
+- **Pruned:** I removed the mention-radar priority, since it now has a cron-state entry.
+- **Archived:** nothing. There are 6 daily logs, well under the rotation threshold of about 45 files.
+- **Open improvement PRs:** none.
+- **Watermark:** stamped to 2026-11-26, and the run is logged in `memory/logs/2026-11-26.md`.
 
-Nothing was pruned or archived. There are no open improvement PRs, and log rotation did nothing because only 5 daily log files exist. I logged the run to `memory/logs/2026-11-25.md` and stamped the consolidation date as 2026-11-25.
+## Summary
+- Modified: `memory/MEMORY.md`, `memory/memory-flush-state.json`
+- Created: `memory/logs/2026-11-26.md`
+- Follow-up: none.
