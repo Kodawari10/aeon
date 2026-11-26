@@ -1,0 +1,505 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Reply Maker — 2026-11-26",
+        "description": "prediction markets"
+      },
+      "children": [
+        "posts_stack",
+        "notes_separator",
+        "notes_section"
+      ]
+    },
+    "posts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "post_1_section",
+        "post_2_section",
+        "post_3_section",
+        "post_4_section",
+        "post_5_section"
+      ]
+    },
+    "post_1_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_1_link",
+        "post_1_meta",
+        "post_1_tweet",
+        "post_1_why",
+        "post_1_options"
+      ]
+    },
+    "post_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Czar102/status/2126060111294537771"
+      }
+    },
+    "post_1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@Czar102 • 34m ago • 1 💬",
+        "variant": "caption"
+      }
+    },
+    "post_1_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Czar102",
+        "handle": "Czar102",
+        "text": "my initial analysis on Polymarket's compute markets: great announcement by Shayne…"
+      }
+    },
+    "post_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "asks \"anything I'm missing?\" on Polymarket's new compute markets; open invite, almost no replies yet",
+        "variant": "caption"
+      }
+    },
+    "post_1_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_1_opt_a_badge",
+        "post_1_opt_a_text",
+        "post_1_opt_b_badge",
+        "post_1_opt_b_text"
+      ]
+    },
+    "post_1_opt_a_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "secondary"
+      }
+    },
+    "post_1_opt_a_text": {
+      "type": "Text",
+      "props": {
+        "text": "On insiders correcting odds: breakingmarkets.io's compute study found one wallet did most of the trading in +60% price jumps, and one trade landed 2 seconds after an FT headline. If one wallet is the informed flow, thin books mean the price is its signal, not a crowd's."
+      }
+    },
+    "post_1_opt_b_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "post_1_opt_b_text": {
+      "type": "Text",
+      "props": {
+        "text": "Premise: these markets can guide data center decisions. With MMs farming incentives and no builder taking the other side, the price tracks sentiment. Hedging needs counterparties with real exposure. Until they show up, this is a scoreboard, not a hedge."
+      }
+    },
+    "post_2_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_2_link",
+        "post_2_meta",
+        "post_2_tweet",
+        "post_2_why",
+        "post_2_options"
+      ]
+    },
+    "post_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/SeleneOdds/status/2126063544835658031"
+      }
+    },
+    "post_2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@SeleneOdds • 20m ago • 2 💬",
+        "variant": "caption"
+      }
+    },
+    "post_2_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "SeleneOdds",
+        "handle": "SeleneOdds",
+        "text": "For this Black Friday, I will be giving away some free alpha. SpaceX is issuing one new share to every kid…"
+      }
+    },
+    "post_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "detailed Kalshi vs Polymarket arb on the SpaceX/Trump Accounts pledge; fresh, low reply count, numbers to engage with",
+        "variant": "caption"
+      }
+    },
+    "post_2_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_2_opt_a_badge",
+        "post_2_opt_a_text",
+        "post_2_opt_b_badge",
+        "post_2_opt_b_text"
+      ]
+    },
+    "post_2_opt_a_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "secondary"
+      }
+    },
+    "post_2_opt_a_text": {
+      "type": "Text",
+      "props": {
+        "text": "Payoff shape on Poly Yes + Kalshi No: $1 at either extreme, $2 if Elon lands between 1M and 10M kids. So 99.3¢ buys a free middle. The catch is ~$15K depth per book and 13 months locked, which is why the edge stays unclaimed."
+      }
+    },
+    "post_2_opt_b_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "post_2_opt_b_text": {
+      "type": "Text",
+      "props": {
+        "text": "Premise: free money. 0.7¢ of edge after fees on a 13-month lock is below T-bills by your own math, with ~$15K per book and a 10¢-wide Poly spread. Those quotes are stale, not prices. Capital cost and depth explain the gap, so it's priced, not missed."
+      }
+    },
+    "post_3_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_3_link",
+        "post_3_meta",
+        "post_3_tweet",
+        "post_3_why",
+        "post_3_options"
+      ]
+    },
+    "post_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/marcelokunze/status/2126057089420382234"
+      }
+    },
+    "post_3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@marcelokunze • 46m ago • 0 💬",
+        "variant": "caption"
+      }
+    },
+    "post_3_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "marcelokunze",
+        "handle": "marcelokunze",
+        "text": "compute markets study is live on breakingmarkets.io/compute: one wallet did most of the trading in +60% jumps…"
+      }
+    },
+    "post_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "wallet-level evidence on informed flow in Polymarket compute markets; wallet visibility/copy-trading angle",
+        "variant": "caption"
+      }
+    },
+    "post_3_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_3_opt_a_badge",
+        "post_3_opt_a_text",
+        "post_3_opt_b_badge",
+        "post_3_opt_b_text"
+      ]
+    },
+    "post_3_opt_a_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "secondary"
+      }
+    },
+    "post_3_opt_a_text": {
+      "type": "Text",
+      "props": {
+        "text": "One wallet doing most of the volume is only visible because Polymarket positions are public. Same visibility lets anyone copy it after the first fill. How much of the move in the 6 of 9 Blackwell jumps came from copiers piling in versus the original wallet?"
+      }
+    },
+    "post_3_opt_b_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "post_3_opt_b_text": {
+      "type": "Text",
+      "props": {
+        "text": "Premise: news preceded 6 of 9 jumps, so it's information-driven. That leaves 3 with no news, and one wallet did most of the volume. Reads like a thin book one trader can push, not price discovery. N=9 can't tell the two apart."
+      }
+    },
+    "post_4_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_4_link",
+        "post_4_meta",
+        "post_4_tweet",
+        "post_4_why",
+        "post_4_options"
+      ]
+    },
+    "post_4_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/_FrostyBTC/status/2126052434367688814"
+      }
+    },
+    "post_4_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@_FrostyBTC • 64m ago • 0 💬",
+        "variant": "caption"
+      }
+    },
+    "post_4_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "_FrostyBTC",
+        "handle": "_FrostyBTC",
+        "text": "Ha, turkey and gloom. Kalshi odds the Nasdaq-100 finishes 2026 up: 74% → 56% in 24 hours…"
+      }
+    },
+    "post_4_why": {
+      "type": "Text",
+      "props": {
+        "text": "clear claim (\"holiday mood, not new information\") about a big Kalshi repricing; easy to add or challenge",
+        "variant": "caption"
+      }
+    },
+    "post_4_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_4_opt_a_badge",
+        "post_4_opt_a_text",
+        "post_4_opt_b_badge",
+        "post_4_opt_b_text"
+      ]
+    },
+    "post_4_opt_a_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "secondary"
+      }
+    },
+    "post_4_opt_a_text": {
+      "type": "Text",
+      "props": {
+        "text": "An 18-point Kalshi swing against a 0.6% index move is a depth story. Cash markets are shut today and Friday is a half day, so the only live price is a thin book. I'd check whether the 56% printed on real size before reading it as mood."
+      }
+    },
+    "post_4_opt_b_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "post_4_opt_b_text": {
+      "type": "Text",
+      "props": {
+        "text": "Premise: holiday mood, not information. The Nasdaq-100 fell only 0.6% with PCE already out. If Kalshi still repriced 74% to 56%, the 74% was likely stale rather than bettors getting gloomy."
+      }
+    },
+    "post_5_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_5_link",
+        "post_5_meta",
+        "post_5_tweet",
+        "post_5_why",
+        "post_5_options"
+      ]
+    },
+    "post_5_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/PolyTradeProOfi/status/2126051180073635989"
+      }
+    },
+    "post_5_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@PolyTradeProOfi • 69m ago • 0 💬",
+        "variant": "caption"
+      }
+    },
+    "post_5_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "PolyTradeProOfi",
+        "handle": "PolyTradeProOfi",
+        "text": "Fresh Wallets, Big Turkey Bets. Polymarket has the Lions at 69.5% vs the Bears…"
+      }
+    },
+    "post_5_why": {
+      "type": "Text",
+      "props": {
+        "text": "public whale-wallet tracking on a live Polymarket game market; fits the copy-trading/wallet-doxxing conversation",
+        "variant": "caption"
+      }
+    },
+    "post_5_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_5_opt_a_badge",
+        "post_5_opt_a_text",
+        "post_5_opt_b_badge",
+        "post_5_opt_b_text"
+      ]
+    },
+    "post_5_opt_a_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A",
+        "variant": "secondary"
+      }
+    },
+    "post_5_opt_a_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wallet tracking cuts both ways: superfunguy's $297K at 49.8¢ is public once it fills, so anyone can copy it at a worse price. Part of the Lions at 69.5% is probably follow-on flow, not new information."
+      }
+    },
+    "post_5_opt_b_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "B",
+        "variant": "secondary"
+      }
+    },
+    "post_5_opt_b_text": {
+      "type": "Text",
+      "props": {
+        "text": "Premise: fresh whale wallets mean sharp money. surfandturf put $302K on Chicago and is down $118K, while two new wallets hold Detroit at ~50¢. Size on both sides says nothing about who's informed, and \"new\" wallets are a cheap way to hide a repeat player."
+      }
+    },
+    "notes_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notes_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notes_heading",
+        "dropped_heading",
+        "dropped_text",
+        "verify_alert",
+        "source_heading",
+        "source_text"
+      ]
+    },
+    "notes_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notes",
+        "level": "h3"
+      }
+    },
+    "dropped_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dropped posts",
+        "level": "h4"
+      }
+    },
+    "dropped_text": {
+      "type": "Text",
+      "props": {
+        "text": "@oddsguard1 (price-gap promo bot), @Ferozkhan_90 (build-in-public promo), @CryptoDLuna (unverified 96% hike-odds claim), @overclassifiedx / @CryptoBro_4alls (low engagement, no room to add)."
+      }
+    },
+    "verify_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Verify before posting",
+        "message": "#2 the quoted Kalshi/Poly prices move fast; #4 the 74%→56% figure is the author's, check the live Kalshi market.",
+        "type": "warning"
+      }
+    },
+    "source_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Source status",
+        "level": "h4"
+      }
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "xai=ok (one 12h x_search call http=200, 10 candidates, ~130s), memory=0, websearch=skip",
+        "variant": "caption"
+      }
+    }
+  }
+}

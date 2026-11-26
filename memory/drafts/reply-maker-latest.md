@@ -1,34 +1,34 @@
-*Reply Maker — 2026-11-26*
+*Reply Maker — 2026-11-26 (prediction markets)*
 
-*1.* https://x.com/donspotless0/status/2125927027534372872  (@donspotless0, ~5m ago, 0💬)
-> Polymarket is now pricing the hourly rental cost of AI GPUs…
-why: new Polymarket Compute section, 0 replies, early slot with room to add
-A: H100 $3.27 now to ~$2.14 by late 2028 is a ~35% drop, while B300s stay under $9. That's the market pricing newer-gen premium decay, not just cheaper compute. Which index settles these markets? That decides whether the curve is real or just thin.
-B: Premise: a down-sloping curve means the market expects cheaper compute. Long-dated markets are thin and tie up cash until 2028, so the far end mostly reflects a few traders' positions. I'd trust the 2026-27 points far more than the late-2028 ones.
+*1.* https://x.com/Czar102/status/2126060111294537771  (@Czar102, 34m ago, 1💬)
+> my initial analysis on Polymarket's compute markets: great announcement by Shayne…
+why: asks "anything I'm missing?" on Polymarket's new compute markets; open invite, almost no replies yet
+A: On insiders correcting odds: breakingmarkets.io's compute study found one wallet did most of the trading in +60% price jumps, and one trade landed 2 seconds after an FT headline. If one wallet is the informed flow, thin books mean the price is its signal, not a crowd's.
+B: Premise: these markets can guide data center decisions. With MMs farming incentives and no builder taking the other side, the price tracks sentiment. Hedging needs counterparties with real exposure. Until they show up, this is a scoreboard, not a hedge.
 
-*2.* https://x.com/arbprediction/status/2125926828829180089  (@arbprediction, ~5m ago, 0💬)
-> Polymarket YES 20.7¢ + Kalshi NO 76¢ on David Lisnard winning France's 2027 presidency = 96.7¢…
-why: cross-venue arb claim with a testable weak point (resolution rules), 0 replies
-A: At ~4%/yr you're earning roughly what cash pays, with two venues of risk on top. The bigger issue is resolution wording: if Polymarket and Kalshi define "winning" differently (first round vs runoff, certification date), the "locked" 2% isn't locked.
-B: Premise: the trap is fees and lock-up. The bigger one is that it isn't a true arb. YES on one venue and NO on the other only locks profit if both settle on identical rules. Different wording turns a 3.4¢ edge into a coin flip on one leg.
+*2.* https://x.com/SeleneOdds/status/2126063544835658031  (@SeleneOdds, 20m ago, 2💬)
+> For this Black Friday, I will be giving away some free alpha. SpaceX is issuing one new share to every kid…
+why: detailed Kalshi vs Polymarket arb on the SpaceX/Trump Accounts pledge; fresh, low reply count, numbers to engage with
+A: Payoff shape on Poly Yes + Kalshi No: $1 at either extreme, $2 if Elon lands between 1M and 10M kids. So 99.3¢ buys a free middle. The catch is ~$15K depth per book and 13 months locked, which is why the edge stays unclaimed.
+B: Premise: free money. 0.7¢ of edge after fees on a 13-month lock is below T-bills by your own math, with ~$15K per book and a 10¢-wide Poly spread. Those quotes are stale, not prices. Capital cost and depth explain the gap, so it's priced, not missed.
 
-*3.* https://x.com/orcalayer/status/2125926364993712396  (@orcalayer, ~6m ago, 1💬)
-> Polymarket gives Bitcoin a 26% chance of touching $50K by Dec 31. The options market prices the same touch at 31%…
-why: quantitative Polymarket vs Deribit comparison with claims (Brier 0.094 vs 0.095, 1.7x tail) that can be stress-tested
-A: Brier 0.094 vs 0.095 over 105 windows is a tie, but overlapping BTC windows share one price path, so the effective sample is far smaller than 105. The 1.7x tail finding (1-6% drops happening more than priced) is the one to retest on non-overlapping dates.
-B: Reading 26% vs 31% as a gap assumes both price the same thing. Deribit touch odds are risk-neutral and include a crash premium; Polymarket is a capital-locked retail book. The spread may just be what crash insurance costs, not a mispricing to fade.
+*3.* https://x.com/marcelokunze/status/2126057089420382234  (@marcelokunze, 46m ago, 0💬)
+> compute markets study is live on breakingmarkets.io/compute: one wallet did most of the trading in +60% jumps…
+why: wallet-level evidence on informed flow in Polymarket compute markets; wallet visibility/copy-trading angle
+A: One wallet doing most of the volume is only visible because Polymarket positions are public. Same visibility lets anyone copy it after the first fill. How much of the move in the 6 of 9 Blackwell jumps came from copiers piling in versus the original wallet?
+B: Premise: news preceded 6 of 9 jumps, so it's information-driven. That leaves 3 with no news, and one wallet did most of the volume. Reads like a thin book one trader can push, not price discovery. N=9 can't tell the two apart.
 
-*4.* https://x.com/Mr_Derivatives/status/2125925931068092910  (@Mr_Derivatives, ~8m ago, 2💬, 20❤)
-> Some rumors circulating on Fintwit suggesting the US government may take a stake in $NVDA…
-why: cites a prediction-market spike as soft confirmation of a rumor, a framing worth testing
-A: Polymarket trade history is public per wallet, so you can check whether the NVDA spike came from a few fresh wallets or an established trader. One wallet's position isn't information, it's a position. Worth looking at before reading it as confirmation.
-B: Premise: the spike corroborates the rumor. It's circular: rumor hits Fintwit, traders bid it, the price then "confirms" it. A market that moves after public chatter is measuring attention, not information. Only a move before the chatter would be a signal.
+*4.* https://x.com/_FrostyBTC/status/2126052434367688814  (@_FrostyBTC, 64m ago, 0💬)
+> Ha, turkey and gloom. Kalshi odds the Nasdaq-100 finishes 2026 up: 74% → 56% in 24 hours…
+why: clear claim ("holiday mood, not new information") about a big Kalshi repricing; easy to add or challenge
+A: An 18-point Kalshi swing against a 0.6% index move is a depth story. Cash markets are shut today and Friday is a half day, so the only live price is a thin book. I'd check whether the 56% printed on real size before reading it as mood.
+B: Premise: holiday mood, not information. The Nasdaq-100 fell only 0.6% with PCE already out. If Kalshi still repriced 74% to 56%, the 74% was likely stale rather than bettors getting gloomy.
 
-*5.* https://x.com/LeoBuilds_/status/2125925703702949896  (@LeoBuilds_, ~9m ago, 2💬)
-> BREAKING: 21% chance Anthropic announces bankruptcy by end of 2029 according to Polymarket…
-why: treats a 3-year market price as news; clear misread to correct with specifics
-A: That 21% is a 2029 price: it bundles ~3 years of locked capital and longshot bias, since people overpay for "yes" on dramatic tails. Check order-book depth before quoting it. On thin long-dated markets a few thousand dollars can set the headline number.
-B: Premise: "BREAKING" fits a market price. A 3-year yes/no isn't news, it's what the last marginal trader paid. The useful questions are how much size sits at 21% and whether yes holders are compensated for locking cash until 2029, not whether Grok agrees.
+*5.* https://x.com/PolyTradeProOfi/status/2126051180073635989  (@PolyTradeProOfi, 69m ago, 0💬)
+> Fresh Wallets, Big Turkey Bets. Polymarket has the Lions at 69.5% vs the Bears…
+why: public whale-wallet tracking on a live Polymarket game market; fits the copy-trading/wallet-doxxing conversation
+A: Wallet tracking cuts both ways: superfunguy's $297K at 49.8¢ is public once it fills, so anyone can copy it at a worse price. Part of the Lions at 69.5% is probably follow-on flow, not new information.
+B: Premise: fresh whale wallets mean sharp money. surfandturf put $302K on Chicago and is down $118K, while two new wallets hold Detroit at ~50¢. Size on both sides says nothing about who's informed, and "new" wallets are a cheap way to hide a repeat player.
 
-notes: Dropped: @0xpipi (no content), @crbpite8 / @BarnabusBull (copy-trade and referral promo), @OccGn (flame bait), @Smart_Money (long German-language Fed thread, figures unverified). Check each reply's claims against the live market before posting (#1 index/settlement source, #2 both venues' resolution rules).
-source-status: xai=ok (first 12h call http=200 but empty: model treated the window as future; retry with dates removed from the prompt text http=200, 10 candidates), memory=0, websearch=skip
+notes: Dropped: @oddsguard1 (price-gap promo bot), @Ferozkhan_90 (build-in-public promo), @CryptoDLuna (unverified 96% hike-odds claim), @overclassifiedx / @CryptoBro_4alls (low engagement, no room to add). Verify before posting: #2 the quoted Kalshi/Poly prices move fast; #4 the 74%→56% figure is the author's, check the live Kalshi market.
+source-status: xai=ok (one 12h x_search call http=200, 10 candidates, ~130s), memory=0, websearch=skip
