@@ -1,34 +1,33 @@
-*Reply Maker — 2026-11-26 (prediction markets)*
+*Reply Maker — 2026-11-27 (prediction markets)*
 
-*1.* https://x.com/Czar102/status/2126060111294537771  (@Czar102, 34m ago, 1💬)
-> my initial analysis on Polymarket's compute markets: great announcement by Shayne…
-why: asks "anything I'm missing?" on Polymarket's new compute markets; open invite, almost no replies yet
-A: On insiders correcting odds: breakingmarkets.io's compute study found one wallet did most of the trading in +60% price jumps, and one trade landed 2 seconds after an FT headline. If one wallet is the informed flow, thin books mean the price is its signal, not a crowd's.
-B: Premise: these markets can guide data center decisions. With MMs farming incentives and no builder taking the other side, the price tracks sentiment. Hedging needs counterparties with real exposure. Until they show up, this is a scoreboard, not a hedge.
+*1.* https://x.com/DaCryptoPirates/status/2126302917762437598  (@DaCryptoPirates, 1m ago, 3💬)
+> The top 1% of Polymarket wallets reportedly made 91% of all trading profits from the 2026 US midterms…
+why: asks whether ordinary traders compete on equal terms or just supply liquidity; fresh, near-zero replies
+A: Worth separating skill from tooling: every Polymarket wallet is public on Polygon, so the 819 are likely running wallet trackers and bots against the other 80k. That leaderboard reads as an infrastructure ranking more than a forecasting ranking.
+B: Premise: markets reward better predictions. They reward better entry prices vs the crowd, net of timing and fees. 819 wallets taking $23M of $180M wagered looks like market-making against retail flow. Both can be true; the second is the business model.
 
-*2.* https://x.com/SeleneOdds/status/2126063544835658031  (@SeleneOdds, 20m ago, 2💬)
-> For this Black Friday, I will be giving away some free alpha. SpaceX is issuing one new share to every kid…
-why: detailed Kalshi vs Polymarket arb on the SpaceX/Trump Accounts pledge; fresh, low reply count, numbers to engage with
-A: Payoff shape on Poly Yes + Kalshi No: $1 at either extreme, $2 if Elon lands between 1M and 10M kids. So 99.3¢ buys a free middle. The catch is ~$15K depth per book and 13 months locked, which is why the edge stays unclaimed.
-B: Premise: free money. 0.7¢ of edge after fees on a 13-month lock is below T-bills by your own math, with ~$15K per book and a 10¢-wide Poly spread. Those quotes are stale, not prices. Capital cost and depth explain the gap, so it's priced, not missed.
+*2.* https://x.com/gigacoo_/status/2126294566923866378  (@gigacoo_, 34m ago, 1💬)
+> Polymarket now gives Netanyahu a 73.5% chance of being out by December 31…
+why: concrete odds move (+12.5 in 24h, $126M traded) with a clear explanation worth sharpening
+A: Read the two markets together: Netanyahu out by Dec 31 at 73.5%, Eizenkot next PM at 79.9%. Same coalition deal, different clocks. The gap to 100 reads as the Dec 2 confidence vote and Dec 6 mandate deadline, not doubt about who comes next.
+B: I'd push back that 74 vs 95 is just coalition risk. "Out by Dec 31" also prices resolution wording: does a caretaker Bibi count as in office? Anyone reading 73.5% as pure politics is skipping the rules tab.
 
-*3.* https://x.com/marcelokunze/status/2126057089420382234  (@marcelokunze, 46m ago, 0💬)
-> compute markets study is live on breakingmarkets.io/compute: one wallet did most of the trading in +60% jumps…
-why: wallet-level evidence on informed flow in Polymarket compute markets; wallet visibility/copy-trading angle
-A: One wallet doing most of the volume is only visible because Polymarket positions are public. Same visibility lets anyone copy it after the first fill. How much of the move in the 6 of 9 Blackwell jumps came from copiers piling in versus the original wallet?
-B: Premise: news preceded 6 of 9 jumps, so it's information-driven. That leaves 3 with no news, and one wallet did most of the volume. Reads like a thin book one trader can push, not price discovery. N=9 can't tell the two apart.
+*3.* https://x.com/r_gopfan/status/2126302128507330817  (@r_gopfan, 4m ago, 1💬)
+> Polymarket Sports Market Improvements: starting November 30, 2026, new sports market resolution rules…
+why: platform rule change that affects pricing and risk on thin sports markets
+A: The 50/50 fallback was also a hedge: a forfeit or typo'd tennis market paid 0.50 either side. From Nov 30 those cases settle to a winner, so thin esports and tennis books carry real tail risk. Expect wider spreads on obscure markets.
+B: "Fewer 50/50s" is framed as pure improvement. Pushing on that: making tournament admins the source, with HLTV and Dotabuff as fallback, swaps a mechanical rule for discretion. Fewer ambiguous payouts, more resolution-source risk.
 
-*4.* https://x.com/_FrostyBTC/status/2126052434367688814  (@_FrostyBTC, 64m ago, 0💬)
-> Ha, turkey and gloom. Kalshi odds the Nasdaq-100 finishes 2026 up: 74% → 56% in 24 hours…
-why: clear claim ("holiday mood, not new information") about a big Kalshi repricing; easy to add or challenge
-A: An 18-point Kalshi swing against a 0.6% index move is a depth story. Cash markets are shut today and Friday is a half day, so the only live price is a thin book. I'd check whether the 56% printed on real size before reading it as mood.
-B: Premise: holiday mood, not information. The Nasdaq-100 fell only 0.6% with PCE already out. If Kalshi still repriced 74% to 56%, the 74% was likely stale rather than bettors getting gloomy.
+*4.* https://x.com/vaultmkr/status/2126293518830235939  (@vaultmkr, 38m ago, 1💬)
+> fomo's founder says trading apps shouldn't offer gambling…
+why: takes a position on trading vs gambling for prediction markets, ends on a line that can be tested
+A: "Honest about which one you're doing" has a concrete version. Robinhood and Coinbase both put prediction markets next to stocks, and I haven't seen either show a "% of accounts net positive in this category" base rate at the buy button. That disclosure would do it.
+B: Honesty is necessary, not the line. A product with negative expected value for the median user is gambling whatever the label. A thin-fee market with public prices can be trading for people with an edge. Sort by edge, not by which tab it sits in.
 
-*5.* https://x.com/PolyTradeProOfi/status/2126051180073635989  (@PolyTradeProOfi, 69m ago, 0💬)
-> Fresh Wallets, Big Turkey Bets. Polymarket has the Lions at 69.5% vs the Bears…
-why: public whale-wallet tracking on a live Polymarket game market; fits the copy-trading/wallet-doxxing conversation
-A: Wallet tracking cuts both ways: superfunguy's $297K at 49.8¢ is public once it fills, so anyone can copy it at a worse price. Part of the Lions at 69.5% is probably follow-on flow, not new information.
-B: Premise: fresh whale wallets mean sharp money. surfandturf put $302K on Chicago and is down $118K, while two new wallets hold Detroit at ~50¢. Size on both sides says nothing about who's informed, and "new" wallets are a cheap way to hide a repeat player.
+*5.* https://x.com/AlexCaluga68556/status/2126299115109642659  (@AlexCaluga68556, 16m ago, 1💬)
+> Found a tool worth sharing. @datadashxyz tracks how the smart money is actually positioned on Polymarket…
+why: smart-money lean (72%) vs market price (58%) on Taipei Mayor, with a stated hypothesis to test
+A: Check the sample behind that 72%. If it's share of tracked-wallet size, one large wallet can swing it. Before trusting the 14-pt gap vs 58%, look at wallet count and whether the sharps hold hedges in other Taipei markets.
+B: "One of them is wrong" is too binary. If 72% is share of wallet size, it isn't a probability, so comparing it to a 58% price is apples to oranges. Sharps can be right directionally while 58% is still fair. Judge it on outcomes, not the gap.
 
-notes: Dropped: @oddsguard1 (price-gap promo bot), @Ferozkhan_90 (build-in-public promo), @CryptoDLuna (unverified 96% hike-odds claim), @overclassifiedx / @CryptoBro_4alls (low engagement, no room to add). Verify before posting: #2 the quoted Kalshi/Poly prices move fast; #4 the 74%→56% figure is the author's, check the live Kalshi market.
-source-status: xai=ok (one 12h x_search call http=200, 10 candidates, ~130s), memory=0, websearch=skip
+source-status: xai=ok (http=200, 12 candidates, all <40m old), memory=0, websearch=skip

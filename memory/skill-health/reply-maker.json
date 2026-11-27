@@ -1,12 +1,13 @@
 {
   "skill": "reply-maker",
-  "last_analyzed": "2026-11-26T21:44:47Z",
+  "last_analyzed": "2026-11-27T13:15:38Z",
   "quality_score": 2,
-  "assessment": "Polished output with specific market figures and wallet data, but limited sourcing (1 X search call only) and explicit verification notes raise concerns about verifiability—conflicts with stated priority of 'correct, verifiable work over work that merely looks finished.'",
+  "assessment": "Prompt for user input rather than substantive skill output; generic boilerplate with no deliverable or signal",
   "flags": [
-    "unverifiable_claim"
+    "generic_content",
+    "low_quality"
   ],
-  "avg_score": 2.13,
+  "avg_score": 2.11,
   "history": [
     {
       "date": "2026-08-25",
@@ -38,6 +39,10 @@
     },
     {
       "date": "2026-11-26",
+      "score": 2
+    },
+    {
+      "date": "2026-11-27",
       "score": 2
     }
   ]
