@@ -1,33 +1,33 @@
 *Reply Maker — 2026-11-27 (prediction markets)*
 
-*1.* https://x.com/DaCryptoPirates/status/2126302917762437598  (@DaCryptoPirates, 1m ago, 3💬)
-> The top 1% of Polymarket wallets reportedly made 91% of all trading profits from the 2026 US midterms…
-why: asks whether ordinary traders compete on equal terms or just supply liquidity; fresh, near-zero replies
-A: Worth separating skill from tooling: every Polymarket wallet is public on Polygon, so the 819 are likely running wallet trackers and bots against the other 80k. That leaderboard reads as an infrastructure ranking more than a forecasting ranking.
-B: Premise: markets reward better predictions. They reward better entry prices vs the crowd, net of timing and fees. 819 wallets taking $23M of $180M wagered looks like market-making against retail flow. Both can be true; the second is the business model.
+*1.* https://x.com/remusofmars/status/2126433997332898266  (@remusofmars, 6m ago, 11💬)
+> ive just emerged from the same woods… prediction markets are gambling too, crypto looks less of a scam…
+why: strong claim that PMs (Kalshi/Polymarket) are "just gambling" and make crypto look better by comparison; live thread, 10 likes
+A: Different failure modes. A memecoin has no resolution date and insiders on the other side; a Kalshi or Polymarket YES share pays $1 on a dated, checkable event. Gambling, sure. But the "scam" label sticks to the marketing, not the contract.
+B: Premise: PMs becoming "gambling" makes crypto look better by comparison. Flip it: normies skipped memecoins because they couldn't read the payoff. Kalshi won because a $1 resolution is legible. Speculation moves to whatever's legible, and that isn't coins.
 
-*2.* https://x.com/gigacoo_/status/2126294566923866378  (@gigacoo_, 34m ago, 1💬)
-> Polymarket now gives Netanyahu a 73.5% chance of being out by December 31…
-why: concrete odds move (+12.5 in 24h, $126M traded) with a clear explanation worth sharpening
-A: Read the two markets together: Netanyahu out by Dec 31 at 73.5%, Eizenkot next PM at 79.9%. Same coalition deal, different clocks. The gap to 100 reads as the Dec 2 confidence vote and Dec 6 mandate deadline, not doubt about who comes next.
-B: I'd push back that 74 vs 95 is just coalition risk. "Out by Dec 31" also prices resolution wording: does a caretaker Bibi count as in office? Anyone reading 73.5% as pure politics is skipping the rules tab.
+*2.* https://x.com/Watsonuscpajp/status/2126431221563695258  (@Watsonuscpajp, 17m ago, 0💬)
+> Kalshi: tax treatment for prediction markets isn't finalized, so no 1099s… wins/losses calculated per "session"…
+why: concrete tax question every active PM trader hits; thread is empty so the reply gets seen
+A: Worth adding: from 2026 the OBBBA caps gambling-loss deductions at 90% of losses, so session netting matters more. If you trade many small markets, export the full trade history and net by day, not by trip. Pick one method and stay consistent.
+B: "No 1099" is the wrong takeaway: the income is reportable whether or not Kalshi sends a form. Per-session vs daily isn't a free choice either. Pick one method, apply it consistently, keep the trade export. Without records, unclear guidance cuts against you.
 
-*3.* https://x.com/r_gopfan/status/2126302128507330817  (@r_gopfan, 4m ago, 1💬)
-> Polymarket Sports Market Improvements: starting November 30, 2026, new sports market resolution rules…
-why: platform rule change that affects pricing and risk on thin sports markets
-A: The 50/50 fallback was also a hedge: a forfeit or typo'd tennis market paid 0.50 either side. From Nov 30 those cases settle to a winner, so thin esports and tennis books carry real tail risk. Expect wider spreads on obscure markets.
-B: "Fewer 50/50s" is framed as pure improvement. Pushing on that: making tournament admins the source, with HLTV and Dotabuff as fallback, swaps a mechanical rule for discretion. Fewer ambiguous payouts, more resolution-source risk.
+*3.* https://x.com/chillyfame/status/2126434935997354258  (@chillyfame, 2m ago, 0💬)
+> What if Wemby wins the MVP? … 30.7 pts, 12.5 reb, 3.8 blk … clear favourite per @Polymarket
+why: ties a Polymarket MVP price to a "has he passed Jokić" framing that is easy to challenge
+A: 30.7 pts, 12.5 reb, 3.8 blk is the case. But MVP markets also price the 65-game minimum for award eligibility. At 18 games in, one injury flips the Polymarket favorite. Availability, not the box score, is the real risk on this price.
+B: "Wemby has passed Jokić" and "Wemby is the November MVP favorite on Polymarket" are different claims. The market prices voter narrative plus availability over a full season. Jokić's three MVPs are what a November favorite has to beat in April.
 
-*4.* https://x.com/vaultmkr/status/2126293518830235939  (@vaultmkr, 38m ago, 1💬)
-> fomo's founder says trading apps shouldn't offer gambling…
-why: takes a position on trading vs gambling for prediction markets, ends on a line that can be tested
-A: "Honest about which one you're doing" has a concrete version. Robinhood and Coinbase both put prediction markets next to stocks, and I haven't seen either show a "% of accounts net positive in this category" base rate at the buy button. That disclosure would do it.
-B: Honesty is necessary, not the line. A product with negative expected value for the median user is gambling whatever the label. A thin-fee market with public prices can be trading for people with an edge. Sort by edge, not by which tab it sits in.
+*4.* https://x.com/poppa_sm/status/2126435214205554905  (@poppa_sm, 1m ago, 0💬)
+> $NVDA could be ready for a major surge! Kalshi odds of a U.S. government stake hit 41%, up 19 points in 24H… NVDA closed $150.49 (+0.80%)
+why: treats a Kalshi odds jump as a bullish catalyst, while the stock barely moved; easy to add context
+A: Kalshi moved 19 pts in 24h on the US-stake odds and NVDA closed +0.80%. If equities don't care about a jump that size, it's likely thin liquidity or one big order, not information. Check volume on that market before calling it a catalyst.
+B: Premise: a US government stake is bullish for NVDA. Intel's 2025 stake came with dilution and strings, and a 19-pt odds jump got +0.8% from the stock. The equity market isn't treating it as a catalyst. I wouldn't either.
 
-*5.* https://x.com/AlexCaluga68556/status/2126299115109642659  (@AlexCaluga68556, 16m ago, 1💬)
-> Found a tool worth sharing. @datadashxyz tracks how the smart money is actually positioned on Polymarket…
-why: smart-money lean (72%) vs market price (58%) on Taipei Mayor, with a stated hypothesis to test
-A: Check the sample behind that 72%. If it's share of tracked-wallet size, one large wallet can swing it. Before trusting the 14-pt gap vs 58%, look at wallet count and whether the sharps hold hedges in other Taipei markets.
-B: "One of them is wrong" is too binary. If 72% is share of wallet size, it isn't a probability, so comparing it to a 58% price is apples to oranges. Sharps can be right directionally while 58% is still fair. Judge it on outcomes, not the gap.
+*5.* https://x.com/complex39b/status/2126434700763783351  (@complex39b, 3m ago, 0💬)
+> Denver started Black Friday 8-2 and 69% on Kalshi. Third quarter in Pittsburgh: Steelers 24, Broncos 5. Broncos down to 8%.
+why: live in-game market swing with exact numbers; a clean hook for a take on in-game pricing
+A: 69% to 8% is a 61-point swing in one game, with the Broncos down 24-5 in the third. In-game markets are the cleanest view of how fast price absorbs score plus clock. A 19-point hole with a quarter left isn't zero, but 8% reads fair.
+B: The 8% is the boring number. 19 points down with a quarter left is about what that costs. The 69% pregame is the story: a market that gives up 61 points in one game was a bet, not a hedge. Pregame positions need an exit plan.
 
-source-status: xai=ok (http=200, 12 candidates, all <40m old), memory=0, websearch=skip
+source-status: xai=ok (http=200, 3 keyword searches), memory=0, websearch=skip
