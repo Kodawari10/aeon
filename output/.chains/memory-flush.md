@@ -1,12 +1,8 @@
-Memory flush finished for 2026-11-26. I scanned the 2026-11-25 log, which was the only file in the window.
+Memory flush finished: scanned 2026-11-26 to 2026-11-27 (one log file), updated `memory/MEMORY.md` in place, and moved the watermark to 2026-11-27.
 
-- **Promoted:** I updated the reply-maker priority in `memory/MEMORY.md`. It now says 5 runs, ISS-001 still open, and notifications ending in a degraded state because of xAI timeouts.
-- **Pruned:** I removed the mention-radar priority, since it now has a cron-state entry.
-- **Archived:** nothing. There are 6 daily logs, well under the rotation threshold of about 45 files.
-- **Open improvement PRs:** none.
-- **Watermark:** stamped to 2026-11-26, and the run is logged in `memory/logs/2026-11-26.md`.
+- **Promoted:** the reply-maker priority now reads avg 2.14 over 7 runs with ISS-001 still open. I added a watch on monitor-polymarket quality (avg 2.88). The xAI lesson now notes that an empty first `x_search` can come from explicit dates in the prompt, and that retrying without dates fixes it.
+- **Pruned and archived:** nothing. The digest table was already current, no priorities were stale, there are 0 open improvement PRs, and no logs needed rotating (7 files, threshold 45).
 
 ## Summary
-- Modified: `memory/MEMORY.md`, `memory/memory-flush-state.json`
-- Created: `memory/logs/2026-11-26.md`
-- Follow-up: none.
+- Modified `memory/MEMORY.md`, `memory/memory-flush-state.json` (stamp), and `memory/logs/2026-11-27.md` (new).
+- No follow-up needed.
