@@ -1,10 +1,10 @@
 {
   "skill": "digest",
-  "last_analyzed": "2026-11-26T12:19:51Z",
+  "last_analyzed": "2026-11-27T13:15:00Z",
   "quality_score": 4,
-  "assessment": "Substantive digest with cited sources, clear structure, and editorial judgment; shows real research with specific tweet IDs, technical details, and transparent data limitations.",
+  "assessment": "Substantive, verifiable digest with clear reasoning for curation; aligns perfectly to strategy (correctness over filler); appropriately thin rather than padded.",
   "flags": [],
-  "avg_score": 3.75,
+  "avg_score": 3.8,
   "history": [
     {
       "date": "2026-11-23",
@@ -20,6 +20,10 @@
     },
     {
       "date": "2026-11-26",
+      "score": 4
+    },
+    {
+      "date": "2026-11-27",
       "score": 4
     }
   ]

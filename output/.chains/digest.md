@@ -1,22 +1,25 @@
-ℹ️ Starknet digest
+# Starknet digest, 2026-11-27: DIGEST_THIN, nothing sent
 
-*Starknet — 2026-11-26*
+Only one item cleared the signal bar, and the skill says to skip the notification below three items rather than pad.
 
-_TL;DR: Quiet day; the signal is builder tooling for STRK20 privacy (wallet registration in starknet.js, an AI app builder in private beta) plus Endur's two-year staking numbers._
+**The one solid item: StarkWare post-quantum comparison v2**
+- StarkWare updated its crypto-agility table and migration map (data as of Nov 24) at [quantum.starkware.co/networks](https://quantum.starkware.co/networks). It compares 10 chains.
+- Starknet is listed as supporting optional post-quantum account signing, with a proving layer that is already hash-based. It targets full post-quantum security in 2027, against end-2027 for Algorand and December 2029 for the Ethereum Foundation.
+- Solana dropped to 0 of 8 because it relied on Frankendancer, which is no longer supported.
+- Bitcoin's signing status moved to "demonstrated" after a quantum-safe spend on mainnet on Aug 26.
+- Starknet's own quantum campaign ([post](https://x.com/Starknet/status/2125975493203881995), 299 likes) claims a quantum computer could fake an elliptic-curve SNARK proof in under 8 hours, versus about 15 million years for a STARK. That claim is self-reported.
 
-1. *starknet.js v11.7 prerelease adds STRK20 wallet registration*
-   The prerelease supports Wallet API 0.10.5, letting a supporting wallet register a Cairo account in the STRK20 privacy pool. The register action must be the only action in its request.
-   Why it matters: dApps can now onboard users into shielded balances through the wallet flow instead of custom plumbing.
-   https://x.com/CairoLang/status/2125560153026257222
+**Dropped, with reasons**
+- **STRK20 privacy app list** (a [szu_1001 post](https://x.com/szu_1001/status/2125895589065838660)): privacy launched June 9, so this is a recap. It does list OffMarket as live for private prediction markets on Starknet, which matters to you.
+- **StarkWare Inference Proofs benchmark:** v1.0 was frozen Nov 11, so it isn't fresh.
+- **Chance AI-agent stats** (150K+ transactions, $275M notional): self-reported and unverified.
+- **Garden BTC-to-Starknet post:** no substance.
+- **Hyperliquid/Starknet ranking post:** not news.
+- **Already covered Nov 23–26:** post-quantum Falcon-512, independent L1, Upbit listing, Xverse multisig, token unlocks, block-sized proofs.
 
-2. *Starknet.Build opens a waitlist for its AI app builder*
-   Describe an app in plain language and it writes the contracts, builds the frontend, runs tests, and deploys to Starknet. It is in private beta, with no public launch date on the site, and is built on the privacy features (STRK20, shielded transfers).
-   Why it matters: a no-Cairo path to shipping privacy apps; join the waitlist if you want early access.
-   https://x.com/LoLoCoding/status/2125586043193655552
+**X signal:** the xAI call worked (http=200, 8 posts). WebSearch only returned older stories.
 
-3. *Endur turns 2: 140M+ STRK and 40+ BTC staked*
-   The liquid staking protocol reports five Bitcoin flavours (including strkBTC for private BTC staking) and integrations with Vesu, Ekubo, Troves, and Opus. Figures are self-reported.
-   Why it matters: strkBTC is now a live staking asset with DeFi integrations, not only a roadmap item.
-   https://x.com/endurfi/status/2125916418327879881
-
-*Also worth a glance:* Cairo 2.21 now rejects const comparisons that would ignore a custom PartialEq impl ([PR #10395](https://github.com/starkware-libs/cairo/pull/10395)) · Quiet news day; Upbit listing, Falcon-512, Xverse multisig and unlock cadence were covered earlier this week and skipped.
+## Summary
+- **Done:** ran the Starknet digest from WebSearch and xAI, and verified candidates via WebFetch. I did not call `./notify`.
+- **Files changed:** appended a `### digest (Starknet)` entry to `memory/logs/2026-11-27.md`, and added a row to the Recent Digests table in `memory/MEMORY.md`.
+- **Follow-up:** none needed. If you want thin days sent anyway, the skill's Phase 3 and Phase 4 rules conflict and could be reconciled.
