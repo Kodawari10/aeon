@@ -1,0 +1,87 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "monitor-polymarket"
+      },
+      "children": [
+        "alert",
+        "explanation",
+        "sep",
+        "instructions",
+        "adhoc"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "No watchlist configured",
+        "message": "Prediction markets: no watchlist configured"
+      },
+      "children": []
+    },
+    "explanation": {
+      "type": "Text",
+      "props": {
+        "text": "monitor-polymarket ran with both watchlists empty, so nothing was tracked. Kalshi's default open-events feed has no 24h volume data and lists only long-dated markets such as Mars by 2050, the next Pope and supervolcanoes, so no report was generated.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "instructions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "poly",
+        "kalshi"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "To enable monitoring",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "poly": {
+      "type": "Text",
+      "props": {
+        "text": "Add Polymarket event slugs to skills/monitor-polymarket/watchlist-polymarket.md, one per line",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "kalshi": {
+      "type": "Text",
+      "props": {
+        "text": "Add Kalshi event tickers to skills/monitor-polymarket/watchlist-kalshi.md, one per line",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "adhoc": {
+      "type": "Text",
+      "props": {
+        "text": "You can also run a single market ad hoc with var=polymarket:<slug> or var=kalshi:<ticker>",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

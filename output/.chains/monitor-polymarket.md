@@ -1,3 +1,3 @@
-ℹ️ Prediction markets: no watchlist
+ℹ️ Prediction markets: no watchlist configured
 
-monitor-polymarket ran with empty watchlists (MONITOR_KALSHI_NO_CONFIG). Nothing was monitored. Add Polymarket event slugs to skills/monitor-polymarket/watchlist-polymarket.md and Kalshi event tickers to watchlist-kalshi.md, or run with var=polymarket:<slug> / kalshi:<ticker> for a one-off.
+monitor-polymarket ran with both watchlists empty, so nothing was tracked. Kalshi's default open-events feed has no 24h volume data and lists only long-dated markets such as Mars by 2050, the next Pope and supervolcanoes, so I didn't build a report. To enable monitoring, add Polymarket event slugs to skills/monitor-polymarket/watchlist-polymarket.md and Kalshi event tickers to skills/monitor-polymarket/watchlist-kalshi.md, one per line. You can also run a single market ad hoc with var=polymarket:<slug> or var=kalshi:<ticker>.
