@@ -15,4 +15,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-11-26,mention-radar,claude-sonnet-5-5,2330,7881,856617,38369
 2026-11-26,reply-maker,claude-sonnet-5-5,2336,14406,1208547,51561
 2026-11-27,memory-flush,claude-sonnet-5-5,2568,2098,221029,48875
-2026-11-27,heartbeat,claude-sonnet-5-5,2183,4620,355991,31816
+2026-11-27,monitor-polymarket,claude-sonnet-5-5,2187,2952,413570,58118
